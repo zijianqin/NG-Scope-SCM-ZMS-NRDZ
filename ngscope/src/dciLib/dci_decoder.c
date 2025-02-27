@@ -312,17 +312,17 @@ int dci_decoder_decode(ngscope_dci_decoder_t*       dci_decoder,
 			ngscope_ue_tracker_update_per_tti(&ue_tracker[rf_idx], tti);
 
 			// print the tracker info
-			//ngscope_ue_tracker_info(&ue_tracker[rf_idx], tti);
+			ngscope_ue_tracker_info(&ue_tracker[rf_idx], tti);
 
            	pthread_mutex_unlock(&ue_tracker_mutex[rf_idx]);
 
 			/*********************   Print decoding result  **********************/
 
-			//int nof_node = srsran_ngscope_tree_non_empty_nodes(&tree);
-			//printf("decoder: TTI:%d left %d non-empty nodes found:%d dl_dci %d ul_dci!\n", tti, nof_node, \
-						dci_per_sub->nof_dl_dci, dci_per_sub->nof_ul_dci); 
-			//srsran_ngscope_print_dci_per_sub(dci_per_sub);
-			//printf("\n");
+			// int nof_node = srsran_ngscope_tree_non_empty_nodes(&tree);
+			// printf("decoder: TTI:%d left %d non-empty nodes found:%d dl_dci %d ul_dci!\n", tti, nof_node, \
+			// 			dci_per_sub->nof_dl_dci, dci_per_sub->nof_ul_dci); 
+			// srsran_ngscope_print_dci_per_sub(dci_per_sub);
+			// printf("\n");
 
 		}
 	} 
