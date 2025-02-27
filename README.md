@@ -72,3 +72,8 @@ Multi-Base Station Support: With NG-Scope, you can simultaneously decode the con
 Parallel DCI-Decoding Framework: To facilitate the decoding of multiple base stations on a single device, we have implemented a robust framework. This framework efficiently handles synchronization with the cell, demodulation of raw IQ data, and decoding of control messages.
  
 We are excited to provide you with NG-Scope, a powerful tool that empowers you to unlock deeper insights into FDD base station communication. Stay tuned for future updates as we continue to enhance and expand NG-Scope's capabilities.
+
+
+## NG-Scope with SCM Integration
+
+We are trying to integrate NG-Scope with the SCM generation. Cellscanner can be used to find cells near the SDR. Cellinspector can be used to get basic configuration of the target cell. We're tring to integrate a new executable called cellscm, which will output both cell basic configurations and real-time monitoring data. 
