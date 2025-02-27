@@ -76,4 +76,4 @@ We are excited to provide you with NG-Scope, a powerful tool that empowers you t
 
 ## NG-Scope with SCM Integration
 
-We are trying to integrate NG-Scope with the SCM generation. Cellscanner can be used to find cells near the SDR. Cellinspector can be used to get basic configuration of the target cell. We're tring to integrate a new executable called cellscm, which will output both cell basic configurations and real-time monitoring data. 
+We are trying to integrate NG-Scope with the SCM generation. Cellscanner can be used to find cells near the SDR. Cellinspector can be used to get basic configuration of the target cell. We're trying to integrate a new executable called cellscm, which will output both cell basic configurations and real-time monitoring data. 
