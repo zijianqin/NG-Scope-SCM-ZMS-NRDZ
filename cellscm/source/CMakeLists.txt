@@ -18,26 +18,18 @@
 # and at http://www.gnu.org/licenses/.
 #
 
-file(GLOB_RECURSE SOURCES "*.cc")
-
 if (RPATH)
   set(CMAKE_BUILD_WITH_INSTALL_RPATH TRUE)
 endif (RPATH)
 
-add_executable(cellscm ${SOURCES})
+add_executable(cellscm "mib_decode.c" "main.cc" )
 
-set(SRSRAN_SOURCES srsran_common srsran_mac srsran_phy srsran_radio srslog support system)
+set(SRSRAN_SOURCES asn1_utils srsran_common srsran_mac srsran_phy srsran_radio srsran_gtpu  srsran_rlc srsran_pdcp rrc_asn1 srslog support system)
 
 target_link_libraries(cellscm ${SRSRAN_SOURCES}
                               ${CMAKE_THREAD_LIBS_INIT}
                               ${LIBCONFIG_LIBRARY}
-                              ${ATOMIC_LIBS})
-
-if (LIBASN4G)
-    target_link_libraries(cellscm ${LIBASN4G_LIBRARY})
-endif(LIBASN4G)
-                            
-
+                              ${ATOMIC_LIBS})                       
 
 if (RPATH)
   set_target_properties(cellscm PROPERTIES INSTALL_RPATH ".")
