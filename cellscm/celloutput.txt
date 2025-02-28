@@ -1,0 +1,6 @@
+cell.bw=20MHz
+cell.mcc:001
+cell.mnc:010
+cell.tac=1
+cell.id=27447551
+cell.pdsch_reference_signal_power=-36dBm
