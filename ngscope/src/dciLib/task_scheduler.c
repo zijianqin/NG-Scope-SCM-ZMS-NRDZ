@@ -508,7 +508,7 @@ void* task_scheduler_thread(void* p){
     } else if (task_scheduler.cell.nof_prb == 6) {
         bw = 1.4;
     } else {
-        perror("Error physical resource block number!\n");
+        printf("Error physical resource block number!\n");
     }
     FILE* cellcfgfile = NULL;
     cellcfgfile = fopen("cellcfg.txt", "w");
