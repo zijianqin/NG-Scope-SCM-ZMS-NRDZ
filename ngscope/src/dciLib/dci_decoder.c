@@ -296,6 +296,10 @@ int dci_decoder_decode(ngscope_dci_decoder_t*       dci_decoder,
 	dci_decoder->ue_dl_cfg.cfg.pdsch.use_tbs_index_alt = false;
 	dci_decoder->ue_dl_cfg.cfg.dci.multiple_csi_request_enabled = false;
 	dci_decoder->ue_dl_cfg.chest_cfg = chest_pdsch_cfg;
+
+
+
+	
 	if ((sf_idx == 5 && (sfn % 2) == 0)) {
 		ret = 0;
         ret = srsran_ue_dl_find_and_decode_sib1(&dci_decoder->ue_dl, &dci_decoder->dl_sf, \
@@ -305,7 +309,6 @@ int dci_decoder_decode(ngscope_dci_decoder_t*       dci_decoder,
 		}
     } else { //SIB2 
 	    ret = 0;
-		// have_sib2 = true;
         ret = srsran_ue_dl_find_and_decode_sib2(&dci_decoder->ue_dl, &dci_decoder->dl_sf, \
 								&dci_decoder->ue_dl_cfg, &dci_decoder->pdsch_cfg, data, acks);
 		if (ret > 0) {
