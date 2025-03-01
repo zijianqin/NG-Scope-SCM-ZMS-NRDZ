@@ -1,5 +1,5 @@
 name: "CodeQL"
-
+# Force a re-run
 on:
   push:
     branches: [ "master" ]
