@@ -42,7 +42,7 @@ Introducing GUI Interface: With NG-Scope 2.1, we introduce a user-friendly GUI i
  
 DCI Streaming Framework: To streamline the analysis process, NG-Scope 2.1 implements a robust DCI streaming framework. This framework enables real-time streaming of decoded Downlink Control Information (DCI) to remote devices, applications, or programs using various network connections, including the Internet, Ethernet, and wireless networks. By minimizing latency, this feature allows for prompt analysis and monitoring of control information, leading to more accurate insights.
 
-Basic cell configuration will be output to cellcfg.txt. Real-time reference signal received power readings will be output to rsrp.txt. Examples of these files can be found at ./ngscope.
+Basic cell configuration will be output to cellcfg.txt. Real-time reference signal received power readings will be output to rsrp.txt. Examples of these files can be found at ./ngscope/cellcfg.txt and ./ngscope/rsrp.txt.
 
 ## NG-Scope Version 2.0 Release Notes
  
