@@ -286,12 +286,20 @@ int main(int argc, char** argv)
         } else {
             perror("Error physical resource block number!\n");
         }
+
+        char cellduply[32];
+        if (cell.frame_type == SRSRAN_FDD) {
+            strcpy(cellduply, "FDD");
+        } else if (cell.frame_type == SRSRAN_TDD) {
+            strcpy(cellduply, "TDD");
+        }
                             
         FILE *file = fopen("celloutput.txt", "w");
         if (file == NULL) {
             perror("Error openning the file.\n");
         } else {
             fprintf(file, "cell.bw=%dMHz\n", cells.cell_cfg.bw);
+            fprintf(file, "cell.duplex=%s\n", cellduply);
         }
         fclose(file);
 
@@ -411,6 +419,12 @@ int main(int argc, char** argv)
     uint64_t sf_cnt          = 0;
     uint32_t sfn             = 0;
     int n;
+    char filename[64];  // Buffer to store filename
+    time_t now = time(NULL);  // Get current time
+    struct tm *t = localtime(&now);  // Convert to local time
+
+    // Format: "YYYY-MM-DD_HH-MM-SS.txt"
+    strftime(filename, sizeof(filename), "%Y-%m-%d_%H-%M-%S.txt", t);
 
     while (!go_exit) {
 
@@ -487,8 +501,6 @@ int main(int argc, char** argv)
 
                 // // update the ue_tracker at subframe level, mainly remove those inactive UE
                 // ngscope_ue_tracker_update_per_tti(&ue_tracker[rf_idx], tti);
-
-                
                 
                 //ngscope_tree_t tree;
                 //ngscope_dci_per_sub_t   dci_per_sub;
@@ -507,7 +519,12 @@ int main(int argc, char** argv)
                     (ue_dl_cfg.cfg.tm > SRSRAN_TM1 && cell.nof_ports > 1)) &&
                     (have_sib1 == 0 || have_sib2 == 0)) {
                     n = srsran_ue_dl_find_and_decode(&ue_dl, &dl_sf, &ue_dl_cfg, &pdsch_cfg, data, acks);
+                    FILE *outlog;
+                    outlog = fopen(filename, "a");
+                    fprintf(outlog, "tti: %d, reference_signal_received_power=%4fdBm\n", tti, ue_dl.chest_res.rsrp_dbm);
+                    fclose(outlog);
                     if (n > 0) {
+                        
                         for (uint32_t tb = 0; tb < SRSRAN_MAX_CODEWORDS; tb++) {
                             if (pdsch_cfg.grant.tb[tb].enabled) {
                                 if (acks[tb]) { 

@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <libconfig.h>
 #include <unistd.h>
+#include <time.h>
 
 #include "srsran/srsran.h"
 #include "srsran/phy/common/phy_common.h"

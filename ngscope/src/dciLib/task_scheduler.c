@@ -515,6 +515,8 @@ void* task_scheduler_thread(void* p){
     uint32_t    last_tti = 0;
     uint32_t    tti = 0;
     bool        decode_pdcch = false;
+    bool have_sib1 = false;
+    bool have_sib2 = false;
 	uint32_t 	sf_idx = 0;
 
 	FILE* 		fd = fopen("task_scheduler.txt","w+");
@@ -566,7 +568,7 @@ void* task_scheduler_thread(void* p){
 
           	//decode_pdcch = false; 
             /***************** Tell the decoder to decode the PDCCH *********/          
-            if(decode_pdcch){  // We only decode when we got the SFN
+            if(decode_pdcch && have_sib1 && have_sib2){  // We only decode when we got the SFN, SIB1, and SIB2
 				if((last_tti != 10239) && (last_tti+1 != tti) ){
 					printf("Last tti:%d current tti:%d\n", last_tti, tti);
 				}
