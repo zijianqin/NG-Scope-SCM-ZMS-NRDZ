@@ -22,6 +22,7 @@
 #include "ngscope/hdr/dciLib/skip_tti.h"
 #include "ngscope/hdr/dciLib/thread_exit.h"
 #include "ngscope/hdr/dciLib/ue_tracker.h"
+#include "ngscope/hdr/dciLib/decode_sib.h"
 
 extern bool go_exit;
 
@@ -422,19 +423,22 @@ void* handle_tmp_buffer_thread(void* p){
     return NULL;
 }
 
-void* task_scheduler_thread(void* p){
 
+/************************************************
+ * Function name: task_scheduler_thread
+ * Return value type: void*
+ * Description: the decoding thread for one USRP.
+ * Author: PAWS (https://paws.princeton.edu/)
+************************************************/
+void* task_scheduler_thread(void* p){
     prog_args_t* prog_args = (prog_args_t*)p;
     ngscope_task_scheduler_t task_scheduler;
     task_scheduler_init(&task_scheduler, *prog_args);
-
-    ASNDecoder * decoder;
 
     int ret;
     int nof_decoder = task_scheduler.prog_args.nof_decoder;
     int rf_idx      = task_scheduler.prog_args.rf_index;
     uint32_t rf_nof_rx_ant = task_scheduler.prog_args.rf_nof_rx_ant;
-    
 
     ngscope_dci_per_sub_t       dci_per_sub; // empty place hoder for skipped frames 
     ngscope_status_buffer_t     dci_ret;
@@ -478,28 +482,54 @@ void* task_scheduler_thread(void* p){
     tmp_para_t tmp_para = {nof_decoder, rf_nof_rx_ant, max_num_samples, rf_idx};
     pthread_create(&tmp_buf_thd, NULL, handle_tmp_buffer_thread, (void*)&tmp_para);
 		
-	//cell_args_t 		cell_args[MAX_NOF_DCI_DECODER];
-
-    /* Initialize ASN decoder */
-    decoder = init_asn_decoder(prog_args->sib_logs, prog_args->rf_freq);
-	if(decoder == NULL) {
-		printf("Error initializing ASN decoder for frequency %lf\n", prog_args->rf_freq);
-		return NULL;
-	}
+	// cell_args_t 		cell_args[MAX_NOF_DCI_DECODER];
 
   	srsran_softbuffer_rx_t 	rx_softbuffers[SRSRAN_MAX_CODEWORDS];
 
-    for(int i=0;i<nof_decoder;i++){
+
+    // output cell basic config into a file
+    char duplymode[20] = {};
+    if (task_scheduler.cell.frame_type == SRSRAN_FDD) {
+        strcpy(duplymode, "FDD");
+    } else {
+        strcpy(duplymode, "TDD");
+    }
+    int bw = 0;
+    if (task_scheduler.cell.nof_prb == 100) {
+        bw = 20;
+    } else if (task_scheduler.cell.nof_prb == 75) {
+        bw = 15;
+    } else if (task_scheduler.cell.nof_prb == 50) {
+        bw = 10;
+    } else if (task_scheduler.cell.nof_prb == 25) {
+        bw = 5;
+    } else if (task_scheduler.cell.nof_prb == 15) {
+        bw = 3;
+    } else if (task_scheduler.cell.nof_prb == 6) {
+        bw = 1.4;
+    } else {
+        perror("Error physical resource block number!\n");
+    }
+    FILE* cellcfgfile = NULL;
+    cellcfgfile = fopen("cellcfg.txt", "w");
+    fprintf(cellcfgfile, "cell.frame_type: %s\n", duplymode);
+    fprintf(cellcfgfile, "cell.bandwidth: %dMHz\n", bw);
+    fclose(cellcfgfile);
+
+    FILE* rsrpoutfile = fopen("rsrp.txt", "w");
+	fclose(rsrpoutfile);
+
+    for(int i = 0; i < nof_decoder; i++){
         // init the subframe buffer 
         for (int j = 0; j < SRSRAN_MAX_PORTS; j++) {
             sf_buffer[rf_idx][i].IQ_buffer[j] = srsran_vec_cf_malloc(max_num_samples);
         }
 
 		dci_decoder_init(&dci_decoder[i], task_scheduler.prog_args, &task_scheduler.cell, \
-                           sf_buffer[rf_idx][i].IQ_buffer, rx_softbuffers, i, decoder);
+                           sf_buffer[rf_idx][i].IQ_buffer, rx_softbuffers, i);
 
         //mib_init_imp(&ue_mib[i], sf_buffer[rf_idx][i].IQ_buffer, &task_scheduler->cell);
-        pthread_create( &dci_thd[i], NULL, dci_decoder_thread, (void*)&dci_decoder[i]);
+        pthread_create(&dci_thd[i], NULL, dci_decoder_thread, (void*)&dci_decoder[i]);
 
 		// fill the dci decoder status
 		dci_decoder_up[rf_idx][i] = true;
@@ -515,13 +545,15 @@ void* task_scheduler_thread(void* p){
     uint32_t    last_tti = 0;
     uint32_t    tti = 0;
     bool        decode_pdcch = false;
-    bool have_sib1 = false;
-    bool have_sib2 = false;
 	uint32_t 	sf_idx = 0;
 
 	FILE* 		fd = fopen("task_scheduler.txt","w+");
 	//FILE* 		fd_1 = fopen("sf_sfn.txt","w+");
+    uint8_t* data[SRSRAN_MAX_CODEWORDS];
 	
+    for (int i = 0; i < SRSRAN_MAX_CODEWORDS; i++) {
+        data[i] = srsran_vec_u8_malloc(2000 * 8);
+    }
 
 	//uint64_t t1=0, t2=0, t3=0;
 	//uint64_t t1_sf_idx =0, t2_sf_idx=0;
@@ -568,7 +600,7 @@ void* task_scheduler_thread(void* p){
 
           	//decode_pdcch = false; 
             /***************** Tell the decoder to decode the PDCCH *********/          
-            if(decode_pdcch && have_sib1 && have_sib2){  // We only decode when we got the SFN, SIB1, and SIB2
+            if(decode_pdcch){  // We only decode when we got the SFN
 				if((last_tti != 10239) && (last_tti+1 != tti) ){
 					printf("Last tti:%d current tti:%d\n", last_tti, tti);
 				}
@@ -581,7 +613,7 @@ void* task_scheduler_thread(void* p){
                 // If we cannot find any idle decoder (all of them are busy!)
                 // store them inside a temporal buffer
                 if(idle_idx < 0){
-                    //printf("Skiping %d subframe since Decoder Blocked! \
+                    printf("Skiping %d subframe since Decoder Blocked! \
                             We suggest increasing the number deocder per cell.\n", sfn*10 + sf_idx);
 
                     pthread_mutex_lock(&tmp_buf_mutex[rf_idx]);
