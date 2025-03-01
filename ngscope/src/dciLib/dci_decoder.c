@@ -315,7 +315,7 @@ int dci_decoder_decode(ngscope_dci_decoder_t*       dci_decoder,
 
 	pthread_mutex_lock(&token_mutex[0]);
 	FILE* rsrpoutfile = fopen("rsrp.txt", "a");
-	fprintf(rsrpoutfile, "reference_signal_received_power: %4fdBm\n", dci_decoder->ue_dl.chest_res.rsrp_dbm);
+	fprintf(rsrpoutfile, "tti: %d, reference_signal_received_power: %4fdBm\n", tti, dci_decoder->ue_dl.chest_res.rsrp_dbm);
 	fclose(rsrpoutfile);
 	pthread_mutex_unlock(&token_mutex[0]);
 
