@@ -104,7 +104,6 @@ bool acks[SRSRAN_MAX_CODEWORDS]
     }
 
     if (have_sib1 == false) {
-      have_sib1 = true;
       asn1::rrc::bcch_dl_sch_msg_s dlsch;
       asn1::rrc::sib_type1_s sib1;
       asn1::cbit_ref dlsch_bref(pdsch_res->payload, pdsch_cfg->grant.tb[0].tbs / 8);
