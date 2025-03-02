@@ -95,6 +95,8 @@ lib/test/common/test_eea1: lib/test/common/CMakeFiles/test_eea1.dir/build.make
 lib/test/common/test_eea1: lib/src/common/libsrsran_common.a
 lib/test/common/test_eea1: lib/src/phy/libsrsran_phy.a
 lib/test/common/test_eea1: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/common/test_eea1: /usr/local/lib/libliquid.so
+lib/test/common/test_eea1: /usr/local/lib/libliquid.a
 lib/test/common/test_eea1: lib/src/support/libsupport.a
 lib/test/common/test_eea1: lib/src/srslog/libsrslog.a
 lib/test/common/test_eea1: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

@@ -116,6 +116,8 @@ ngscope/src/remote_client: lib/src/asn1/libasn1_utils.a
 ngscope/src/remote_client: lib/src/common/libsrsran_common.a
 ngscope/src/remote_client: lib/src/phy/libsrsran_phy.a
 ngscope/src/remote_client: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+ngscope/src/remote_client: /usr/local/lib/libliquid.so
+ngscope/src/remote_client: /usr/local/lib/libliquid.a
 ngscope/src/remote_client: lib/src/srslog/libsrslog.a
 ngscope/src/remote_client: lib/src/support/libsupport.a
 ngscope/src/remote_client: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

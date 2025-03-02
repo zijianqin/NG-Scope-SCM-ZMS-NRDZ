@@ -104,6 +104,8 @@ lib/src/radio/test/benchmark_radio: lib/src/phy/rf/libsrsran_rf.so.23.04.0
 lib/src/radio/test/benchmark_radio: lib/src/phy/rf/libsrsran_rf_utils.a
 lib/src/radio/test/benchmark_radio: lib/src/phy/libsrsran_phy.a
 lib/src/radio/test/benchmark_radio: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/src/radio/test/benchmark_radio: /usr/local/lib/libliquid.so
+lib/src/radio/test/benchmark_radio: /usr/local/lib/libliquid.a
 lib/src/radio/test/benchmark_radio: lib/src/radio/test/CMakeFiles/benchmark_radio.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable benchmark_radio"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/lib/src/radio/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/benchmark_radio.dir/link.txt --verbose=$(VERBOSE)

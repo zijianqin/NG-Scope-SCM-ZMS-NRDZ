@@ -333,6 +333,7 @@ lib/src/phy/channel/CMakeFiles/srsran_channel.dir/ch_awgn.c.o: ../lib/src/phy/ch
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -788,6 +789,7 @@ lib/src/phy/channel/CMakeFiles/srsran_channel.dir/channel.cc.o: ../lib/src/phy/c
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -1067,6 +1069,7 @@ lib/src/phy/channel/CMakeFiles/srsran_channel.dir/delay.c.o: ../lib/src/phy/chan
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -1702,6 +1705,8 @@ lib/src/phy/channel/CMakeFiles/srsran_channel.dir/rlf.c.o: ../lib/src/phy/channe
 ../lib/include/srsran/phy/sync/cp.h:
 
 ../lib/include/srsran/phy/sync/sync.h:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/ue/ue_sync.h:
 

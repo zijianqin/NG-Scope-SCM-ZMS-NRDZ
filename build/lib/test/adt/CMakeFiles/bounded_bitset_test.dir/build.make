@@ -95,6 +95,8 @@ lib/test/adt/bounded_bitset_test: lib/test/adt/CMakeFiles/bounded_bitset_test.di
 lib/test/adt/bounded_bitset_test: lib/src/common/libsrsran_common.a
 lib/test/adt/bounded_bitset_test: lib/src/phy/libsrsran_phy.a
 lib/test/adt/bounded_bitset_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/adt/bounded_bitset_test: /usr/local/lib/libliquid.so
+lib/test/adt/bounded_bitset_test: /usr/local/lib/libliquid.a
 lib/test/adt/bounded_bitset_test: lib/src/support/libsupport.a
 lib/test/adt/bounded_bitset_test: lib/src/srslog/libsrslog.a
 lib/test/adt/bounded_bitset_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

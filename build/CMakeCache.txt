@@ -618,7 +618,7 @@ srsran_mac_LIB_DEPENDS:STATIC=general;srsran_common;
 srsran_pdcp_LIB_DEPENDS:STATIC=general;srsran_common;general;srsran_asn1;
 
 //Dependencies for the target
-srsran_phy_LIB_DEPENDS:STATIC=general;pthread;general;m;general;/usr/lib/x86_64-linux-gnu/libfftw3f.so;
+srsran_phy_LIB_DEPENDS:STATIC=general;pthread;general;m;general;/usr/lib/x86_64-linux-gnu/libfftw3f.so;general;/usr/local/lib/libliquid.so;general;/usr/local/lib/libliquid.a;
 
 //Dependencies for the target
 srsran_radio_LIB_DEPENDS:STATIC=general;srsran_rf;general;srsran_common;

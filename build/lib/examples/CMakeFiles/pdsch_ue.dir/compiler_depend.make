@@ -283,6 +283,7 @@ lib/examples/CMakeFiles/pdsch_ue.dir/pdsch_ue.c.o: ../lib/examples/pdsch_ue.c \
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -359,6 +360,8 @@ lib/examples/CMakeFiles/pdsch_ue.dir/pdsch_ue.c.o: ../lib/examples/pdsch_ue.c \
 ../lib/include/srsran/phy/sync/cp.h:
 
 ../lib/include/srsran/phy/sync/sync.h:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/ue/ue_sync.h:
 

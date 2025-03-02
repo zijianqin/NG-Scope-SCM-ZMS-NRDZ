@@ -212,6 +212,7 @@ lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue.c.o: ../lib/examples/npdsch_ue.c
   ../lib/include/srsran/phy/sync/cp.h \
   ../lib/include/srsran/phy/sync/sss.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/phch/pbch.h \
   ../lib/include/srsran/phy/utils/bit.h \
   ../lib/include/srsran/phy/rf/rf.h \
@@ -1661,6 +1662,8 @@ lib/include/srsran/version.h:
 
 ../lib/include/srsran/phy/ue/ue_sync.h:
 
+/usr/local/include/liquid/liquid.h:
+
 ../lib/include/srsran/phy/phch/pbch.h:
 
 ../lib/include/srsran/phy/enb/enb_dl.h:
@@ -1683,13 +1686,13 @@ lib/include/srsran/version.h:
 
 /usr/include/c++/11/cstring:
 
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
 ../lib/include/srsran/phy/ch_estimation/wiener_dl.h:
 
 /usr/include/math.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/x86_64-linux-gnu/asm/sockios.h:
 
 ../lib/include/srsran/phy/common/phy_common_nr.h:
 

@@ -96,6 +96,8 @@ lib/src/phy/ch_estimation/test/refsignal_ul_test_all: lib/src/phy/libsrsran_phy.
 lib/src/phy/ch_estimation/test/refsignal_ul_test_all: lib/src/common/libsrsran_common.a
 lib/src/phy/ch_estimation/test/refsignal_ul_test_all: lib/src/phy/libsrsran_phy.a
 lib/src/phy/ch_estimation/test/refsignal_ul_test_all: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/src/phy/ch_estimation/test/refsignal_ul_test_all: /usr/local/lib/libliquid.so
+lib/src/phy/ch_estimation/test/refsignal_ul_test_all: /usr/local/lib/libliquid.a
 lib/src/phy/ch_estimation/test/refsignal_ul_test_all: lib/src/support/libsupport.a
 lib/src/phy/ch_estimation/test/refsignal_ul_test_all: lib/src/srslog/libsrslog.a
 lib/src/phy/ch_estimation/test/refsignal_ul_test_all: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

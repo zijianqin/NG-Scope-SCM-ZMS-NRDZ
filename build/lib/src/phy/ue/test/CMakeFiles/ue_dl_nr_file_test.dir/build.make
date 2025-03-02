@@ -96,6 +96,8 @@ lib/src/phy/ue/test/ue_dl_nr_file_test: lib/src/phy/libsrsran_phy.a
 lib/src/phy/ue/test/ue_dl_nr_file_test: lib/src/common/libsrsran_common.a
 lib/src/phy/ue/test/ue_dl_nr_file_test: lib/src/phy/libsrsran_phy.a
 lib/src/phy/ue/test/ue_dl_nr_file_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/src/phy/ue/test/ue_dl_nr_file_test: /usr/local/lib/libliquid.so
+lib/src/phy/ue/test/ue_dl_nr_file_test: /usr/local/lib/libliquid.a
 lib/src/phy/ue/test/ue_dl_nr_file_test: lib/src/support/libsupport.a
 lib/src/phy/ue/test/ue_dl_nr_file_test: lib/src/srslog/libsrslog.a
 lib/src/phy/ue/test/ue_dl_nr_file_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

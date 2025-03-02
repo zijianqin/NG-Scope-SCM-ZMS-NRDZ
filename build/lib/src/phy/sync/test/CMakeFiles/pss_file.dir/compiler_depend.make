@@ -256,6 +256,7 @@ lib/src/phy/sync/test/CMakeFiles/pss_file.dir/pss_file.c.o: ../lib/src/phy/sync/
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -304,6 +305,8 @@ lib/src/phy/sync/test/CMakeFiles/pss_file.dir/pss_file.c.o: ../lib/src/phy/sync/
 ../lib/include/srsran/phy/ue/ue_sync_nr.h:
 
 ../lib/include/srsran/phy/fec/ldpc/ldpc_rm.h:
+
+../lib/include/srsran/phy/fec/ldpc/ldpc_encoder.h:
 
 /usr/include/x86_64-linux-gnu/sys/time.h:
 
@@ -831,8 +834,8 @@ lib/include/srsran/version.h:
 
 ../lib/include/srsran/phy/ue/ue_sync.h:
 
+/usr/local/include/liquid/liquid.h:
+
 ../lib/include/srsran/phy/sync/sync.h:
 
 ../lib/include/srsran/phy/ue/ngscope_st.h:
-
-../lib/include/srsran/phy/fec/ldpc/ldpc_encoder.h:

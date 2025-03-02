@@ -156,6 +156,8 @@ cellinspector/source/cellinspector: lib/src/phy/rf/libsrsran_rf.so.23.04.0
 cellinspector/source/cellinspector: lib/src/phy/rf/libsrsran_rf_utils.a
 cellinspector/source/cellinspector: lib/src/phy/libsrsran_phy.a
 cellinspector/source/cellinspector: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+cellinspector/source/cellinspector: /usr/local/lib/libliquid.so
+cellinspector/source/cellinspector: /usr/local/lib/libliquid.a
 cellinspector/source/cellinspector: cellinspector/source/CMakeFiles/cellinspector.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cellinspector"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/cellinspector/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cellinspector.dir/link.txt --verbose=$(VERBOSE)

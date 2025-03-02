@@ -5992,6 +5992,7 @@ lib/src/asn1/CMakeFiles/rrc_asn1.dir/rrc_utils.cc.o: ../lib/src/asn1/rrc_utils.c
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -6124,6 +6125,8 @@ lib/src/asn1/CMakeFiles/rrc_asn1.dir/rrc_utils.cc.o: ../lib/src/asn1/rrc_utils.c
 ../lib/include/srsran/phy/sync/sss.h:
 
 ../lib/include/srsran/phy/sync/sync.h:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/ue/ue_mib.h:
 

@@ -94,6 +94,8 @@ lib/src/phy/sync/test/cfo_test: lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/cf
 lib/src/phy/sync/test/cfo_test: lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/build.make
 lib/src/phy/sync/test/cfo_test: lib/src/phy/libsrsran_phy.a
 lib/src/phy/sync/test/cfo_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/src/phy/sync/test/cfo_test: /usr/local/lib/libliquid.so
+lib/src/phy/sync/test/cfo_test: /usr/local/lib/libliquid.a
 lib/src/phy/sync/test/cfo_test: lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cfo_test"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/lib/src/phy/sync/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cfo_test.dir/link.txt --verbose=$(VERBOSE)

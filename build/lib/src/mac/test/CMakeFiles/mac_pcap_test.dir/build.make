@@ -98,6 +98,8 @@ lib/src/mac/test/mac_pcap_test: /usr/lib/x86_64-linux-gnu/libsctp.so
 lib/src/mac/test/mac_pcap_test: lib/src/common/libsrsran_common.a
 lib/src/mac/test/mac_pcap_test: lib/src/phy/libsrsran_phy.a
 lib/src/mac/test/mac_pcap_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/src/mac/test/mac_pcap_test: /usr/local/lib/libliquid.so
+lib/src/mac/test/mac_pcap_test: /usr/local/lib/libliquid.a
 lib/src/mac/test/mac_pcap_test: lib/src/support/libsupport.a
 lib/src/mac/test/mac_pcap_test: lib/src/srslog/libsrslog.a
 lib/src/mac/test/mac_pcap_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

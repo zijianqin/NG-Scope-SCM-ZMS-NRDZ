@@ -98,6 +98,8 @@ lib/test/common/byte_buffer_queue_test: /usr/lib/x86_64-linux-gnu/libboost_progr
 lib/test/common/byte_buffer_queue_test: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0
 lib/test/common/byte_buffer_queue_test: lib/src/phy/libsrsran_phy.a
 lib/test/common/byte_buffer_queue_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/common/byte_buffer_queue_test: /usr/local/lib/libliquid.so
+lib/test/common/byte_buffer_queue_test: /usr/local/lib/libliquid.a
 lib/test/common/byte_buffer_queue_test: lib/src/support/libsupport.a
 lib/test/common/byte_buffer_queue_test: lib/src/srslog/libsrslog.a
 lib/test/common/byte_buffer_queue_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

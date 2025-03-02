@@ -247,6 +247,7 @@ lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_fftw.c.o: ../lib/src/phy/dft/dft_f
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -647,6 +648,7 @@ lib/src/phy/dft/CMakeFiles/srsran_dft.dir/ofdm.c.o: ../lib/src/phy/dft/ofdm.c \
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -703,6 +705,10 @@ lib/src/phy/dft/CMakeFiles/srsran_dft.dir/ofdm.c.o: ../lib/src/phy/dft/ofdm.c \
 ../lib/include/srsran/phy/sync/refsignal_dl_sync.h:
 
 ../lib/include/srsran/phy/ue/ngscope_tree.h:
+
+/usr/include/unistd.h:
+
+../lib/include/srsran/phy/ue/ngscope.h:
 
 ../lib/include/srsran/phy/phch/pusch.h:
 
@@ -1154,10 +1160,6 @@ lib/include/srsran/version.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
 
-/usr/include/unistd.h:
-
-../lib/include/srsran/phy/ue/ngscope.h:
-
 ../lib/include/srsran/phy/ue/ue_cell_search.h:
 
 ../lib/include/srsran/phy/io/netsource.h:
@@ -1221,6 +1223,8 @@ lib/include/srsran/version.h:
 ../lib/include/srsran/phy/ue/ue_sync.h:
 
 ../lib/include/srsran/phy/phch/pusch_nr.h:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/sync/sync.h:
 

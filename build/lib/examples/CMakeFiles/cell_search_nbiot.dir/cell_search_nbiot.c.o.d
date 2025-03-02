@@ -260,6 +260,7 @@ lib/examples/CMakeFiles/cell_search_nbiot.dir/cell_search_nbiot.c.o: \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cfo.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_mib.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_sync.h \
+ /usr/local/include/liquid/liquid.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/agc/agc.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/sync.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cp.h \

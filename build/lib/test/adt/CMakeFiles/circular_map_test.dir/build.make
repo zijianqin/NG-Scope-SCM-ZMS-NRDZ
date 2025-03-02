@@ -95,6 +95,8 @@ lib/test/adt/circular_map_test: lib/test/adt/CMakeFiles/circular_map_test.dir/bu
 lib/test/adt/circular_map_test: lib/src/common/libsrsran_common.a
 lib/test/adt/circular_map_test: lib/src/phy/libsrsran_phy.a
 lib/test/adt/circular_map_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/adt/circular_map_test: /usr/local/lib/libliquid.so
+lib/test/adt/circular_map_test: /usr/local/lib/libliquid.a
 lib/test/adt/circular_map_test: lib/src/support/libsupport.a
 lib/test/adt/circular_map_test: lib/src/srslog/libsrslog.a
 lib/test/adt/circular_map_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

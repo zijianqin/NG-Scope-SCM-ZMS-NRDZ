@@ -177,6 +177,7 @@ lib/examples/CMakeFiles/usrp_capture_sync_nbiot.dir/usrp_capture_sync_nbiot.c.o:
   ../lib/include/srsran/phy/sync/cp.h \
   ../lib/include/srsran/phy/sync/sss.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/phch/pbch.h \
   ../lib/include/srsran/phy/utils/debug.h \
   ../lib/include/srsran/phy/utils/phy_logger.h \
@@ -196,6 +197,8 @@ lib/examples/CMakeFiles/usrp_capture_sync_nbiot.dir/usrp_capture_sync_nbiot.c.o:
 ../lib/include/srsran/phy/utils/debug.h:
 
 ../lib/include/srsran/phy/phch/pbch.h:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/ue/ue_sync.h:
 

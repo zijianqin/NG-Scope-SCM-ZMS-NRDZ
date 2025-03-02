@@ -94,6 +94,8 @@ lib/src/phy/ch_estimation/test/chest_test_dl: lib/src/phy/ch_estimation/test/CMa
 lib/src/phy/ch_estimation/test/chest_test_dl: lib/src/phy/ch_estimation/test/CMakeFiles/chest_test_dl.dir/build.make
 lib/src/phy/ch_estimation/test/chest_test_dl: lib/src/phy/libsrsran_phy.a
 lib/src/phy/ch_estimation/test/chest_test_dl: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/src/phy/ch_estimation/test/chest_test_dl: /usr/local/lib/libliquid.so
+lib/src/phy/ch_estimation/test/chest_test_dl: /usr/local/lib/libliquid.a
 lib/src/phy/ch_estimation/test/chest_test_dl: lib/src/phy/ch_estimation/test/CMakeFiles/chest_test_dl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable chest_test_dl"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/lib/src/phy/ch_estimation/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chest_test_dl.dir/link.txt --verbose=$(VERBOSE)

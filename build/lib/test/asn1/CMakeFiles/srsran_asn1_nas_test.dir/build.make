@@ -96,6 +96,8 @@ lib/test/asn1/srsran_asn1_nas_test: lib/src/common/libsrsran_common.a
 lib/test/asn1/srsran_asn1_nas_test: lib/src/phy/libsrsran_phy.a
 lib/test/asn1/srsran_asn1_nas_test: lib/src/asn1/libsrsran_asn1.a
 lib/test/asn1/srsran_asn1_nas_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/asn1/srsran_asn1_nas_test: /usr/local/lib/libliquid.so
+lib/test/asn1/srsran_asn1_nas_test: /usr/local/lib/libliquid.a
 lib/test/asn1/srsran_asn1_nas_test: lib/src/support/libsupport.a
 lib/test/asn1/srsran_asn1_nas_test: lib/src/srslog/libsrslog.a
 lib/test/asn1/srsran_asn1_nas_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

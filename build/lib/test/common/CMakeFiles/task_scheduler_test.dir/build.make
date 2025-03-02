@@ -95,6 +95,8 @@ lib/test/common/task_scheduler_test: lib/test/common/CMakeFiles/task_scheduler_t
 lib/test/common/task_scheduler_test: lib/src/common/libsrsran_common.a
 lib/test/common/task_scheduler_test: lib/src/phy/libsrsran_phy.a
 lib/test/common/task_scheduler_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/common/task_scheduler_test: /usr/local/lib/libliquid.so
+lib/test/common/task_scheduler_test: /usr/local/lib/libliquid.a
 lib/test/common/task_scheduler_test: lib/src/support/libsupport.a
 lib/test/common/task_scheduler_test: lib/src/srslog/libsrslog.a
 lib/test/common/task_scheduler_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

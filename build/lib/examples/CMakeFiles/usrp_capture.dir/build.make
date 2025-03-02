@@ -97,6 +97,8 @@ lib/examples/usrp_capture: lib/src/phy/rf/libsrsran_rf.so.23.04.0
 lib/examples/usrp_capture: lib/src/phy/rf/libsrsran_rf_utils.a
 lib/examples/usrp_capture: lib/src/phy/libsrsran_phy.a
 lib/examples/usrp_capture: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/examples/usrp_capture: /usr/local/lib/libliquid.so
+lib/examples/usrp_capture: /usr/local/lib/libliquid.a
 lib/examples/usrp_capture: lib/examples/CMakeFiles/usrp_capture.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable usrp_capture"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/lib/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/usrp_capture.dir/link.txt --verbose=$(VERBOSE)

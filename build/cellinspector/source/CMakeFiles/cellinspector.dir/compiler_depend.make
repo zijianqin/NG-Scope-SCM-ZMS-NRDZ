@@ -379,6 +379,7 @@ cellinspector/source/CMakeFiles/cellinspector.dir/cell_scan.c.o: ../cellinspecto
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -747,6 +748,7 @@ cellinspector/source/CMakeFiles/cellinspector.dir/main.c.o: ../cellinspector/sou
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -831,6 +833,8 @@ cellinspector/source/CMakeFiles/cellinspector.dir/main.c.o: ../cellinspector/sou
 ../lib/include/srsran/phy/sync/cp.h:
 
 ../lib/include/srsran/phy/sync/sync.h:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/ue/ue_sync.h:
 

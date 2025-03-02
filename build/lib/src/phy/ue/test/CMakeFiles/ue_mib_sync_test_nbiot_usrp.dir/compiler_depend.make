@@ -159,6 +159,8 @@ lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_
   ../lib/include/srsran/phy/utils/vector.h \
   ../lib/include/srsran/phy/sync/sss.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
+  /usr/include/inttypes.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/ch_estimation/chest_dl.h \
   ../lib/include/srsran/phy/ch_estimation/chest_common.h \
@@ -166,7 +168,6 @@ lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_
   ../lib/include/srsran/phy/resampling/interp.h \
   ../lib/include/srsran/phy/ch_estimation/wiener_dl.h \
   ../lib/include/srsran/phy/utils/random.h \
-  /usr/include/inttypes.h \
   ../lib/include/srsran/phy/common/timestamp.h \
   ../lib/include/srsran/phy/dft/ofdm.h \
   ../lib/include/srsran/phy/cfr/cfr.h \
@@ -212,8 +213,6 @@ lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_
 
 ../lib/include/srsran/phy/common/timestamp.h:
 
-/usr/include/inttypes.h:
-
 ../lib/include/srsran/phy/utils/random.h:
 
 ../lib/include/srsran/phy/resampling/interp.h:
@@ -221,6 +220,10 @@ lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_
 ../lib/include/srsran/phy/ch_estimation/refsignal_dl.h:
 
 ../lib/include/srsran/phy/ch_estimation/chest_common.h:
+
+/usr/include/inttypes.h:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/ue/ue_sync.h:
 

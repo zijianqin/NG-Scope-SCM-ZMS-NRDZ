@@ -94,6 +94,8 @@ lib/src/phy/phch/test/pdcch_file_test: lib/src/phy/phch/test/CMakeFiles/pdcch_fi
 lib/src/phy/phch/test/pdcch_file_test: lib/src/phy/phch/test/CMakeFiles/pdcch_file_test.dir/build.make
 lib/src/phy/phch/test/pdcch_file_test: lib/src/phy/libsrsran_phy.a
 lib/src/phy/phch/test/pdcch_file_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/src/phy/phch/test/pdcch_file_test: /usr/local/lib/libliquid.so
+lib/src/phy/phch/test/pdcch_file_test: /usr/local/lib/libliquid.a
 lib/src/phy/phch/test/pdcch_file_test: lib/src/phy/phch/test/CMakeFiles/pdcch_file_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pdcch_file_test"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/lib/src/phy/phch/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pdcch_file_test.dir/link.txt --verbose=$(VERBOSE)

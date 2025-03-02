@@ -96,6 +96,8 @@ lib/test/pdcp/pdcp_nr_test_rx: lib/src/pdcp/libsrsran_pdcp.a
 lib/test/pdcp/pdcp_nr_test_rx: lib/src/common/libsrsran_common.a
 lib/test/pdcp/pdcp_nr_test_rx: lib/src/phy/libsrsran_phy.a
 lib/test/pdcp/pdcp_nr_test_rx: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/pdcp/pdcp_nr_test_rx: /usr/local/lib/libliquid.so
+lib/test/pdcp/pdcp_nr_test_rx: /usr/local/lib/libliquid.a
 lib/test/pdcp/pdcp_nr_test_rx: lib/src/support/libsupport.a
 lib/test/pdcp/pdcp_nr_test_rx: lib/src/srslog/libsrslog.a
 lib/test/pdcp/pdcp_nr_test_rx: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

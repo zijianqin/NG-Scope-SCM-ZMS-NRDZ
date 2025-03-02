@@ -104,6 +104,7 @@ lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/ue_sync_test_nbiot_us
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/sss.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_sync.h \
+ /usr/local/include/liquid/liquid.h /usr/include/inttypes.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/agc/agc.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ch_estimation/chest_dl.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ch_estimation/chest_common.h \
@@ -111,7 +112,6 @@ lib/src/phy/ue/test/CMakeFiles/ue_sync_test_nbiot_usrp.dir/ue_sync_test_nbiot_us
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/resampling/interp.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ch_estimation/wiener_dl.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/utils/random.h \
- /usr/include/inttypes.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/common/timestamp.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/dft/ofdm.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/cfr/cfr.h \

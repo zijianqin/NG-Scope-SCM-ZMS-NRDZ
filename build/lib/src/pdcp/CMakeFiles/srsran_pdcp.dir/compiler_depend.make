@@ -482,6 +482,7 @@ lib/src/pdcp/CMakeFiles/srsran_pdcp.dir/pdcp.cc.o: ../lib/src/pdcp/pdcp.cc \
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -1353,6 +1354,7 @@ lib/src/pdcp/CMakeFiles/srsran_pdcp.dir/pdcp_entity_lte.cc.o: ../lib/src/pdcp/pd
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -1913,6 +1915,7 @@ lib/src/pdcp/CMakeFiles/srsran_pdcp.dir/pdcp_entity_nr.cc.o: ../lib/src/pdcp/pdc
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -2009,6 +2012,8 @@ lib/src/pdcp/CMakeFiles/srsran_pdcp.dir/pdcp_entity_nr.cc.o: ../lib/src/pdcp/pdc
 ../lib/include/srsran/phy/sync/sss.h:
 
 ../lib/include/srsran/phy/sync/sync.h:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/ue/ue_mib.h:
 

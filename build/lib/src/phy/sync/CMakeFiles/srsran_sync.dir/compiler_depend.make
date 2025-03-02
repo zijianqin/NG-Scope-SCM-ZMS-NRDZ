@@ -247,6 +247,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/cfo.c.o: ../lib/src/phy/sync/cfo.c \
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -525,6 +526,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/cp.c.o: ../lib/src/phy/sync/cp.c \
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -1431,6 +1433,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/refsignal_dl_sync.c.o: ../lib/src/ph
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -2155,6 +2158,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sync.c.o: ../lib/src/phy/sync/sync.c
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -2287,6 +2291,21 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sync_nbiot.c.o: ../lib/src/phy/sync/
   ../lib/include/srsran/phy/utils/vector.h \
   ../lib/include/srsran/phy/sync/sss.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/local/include/liquid/liquid.h \
+  /usr/include/inttypes.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/ch_estimation/chest_dl.h \
   ../lib/include/srsran/phy/ch_estimation/chest_common.h \
@@ -2294,13 +2313,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sync_nbiot.c.o: ../lib/src/phy/sync/
   ../lib/include/srsran/phy/resampling/interp.h \
   ../lib/include/srsran/phy/ch_estimation/wiener_dl.h \
   ../lib/include/srsran/phy/utils/random.h \
-  /usr/include/inttypes.h \
   ../lib/include/srsran/phy/common/timestamp.h \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   ../lib/include/srsran/phy/dft/ofdm.h \
   ../lib/include/srsran/phy/cfr/cfr.h \
   ../lib/include/srsran/phy/io/filesource.h \
@@ -2326,14 +2339,6 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sync_nbiot.c.o: ../lib/src/phy/sync/
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/x86_64-linux-gnu/sys/time.h
 
 
@@ -2370,6 +2375,8 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sync_nbiot.c.o: ../lib/src/phy/sync/
 ../lib/include/srsran/phy/sync/refsignal_dl_sync.h:
 
 ../lib/include/srsran/phy/ue/ngscope_tree.h:
+
+../lib/include/srsran/phy/ue/ngscope.h:
 
 ../lib/include/srsran/phy/phch/pusch.h:
 
@@ -2841,8 +2848,6 @@ lib/include/srsran/version.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
 
-../lib/include/srsran/phy/ue/ngscope.h:
-
 ../lib/include/srsran/phy/ue/ue_cell_search.h:
 
 ../lib/include/srsran/phy/io/netsource.h:
@@ -2906,6 +2911,8 @@ lib/include/srsran/version.h:
 ../lib/include/srsran/phy/ue/ue_sync.h:
 
 ../lib/include/srsran/phy/phch/pusch_nr.h:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/sync/sync.h:
 

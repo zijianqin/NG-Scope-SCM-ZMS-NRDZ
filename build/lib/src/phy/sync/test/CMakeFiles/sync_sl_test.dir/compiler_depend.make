@@ -259,6 +259,7 @@ lib/src/phy/sync/test/CMakeFiles/sync_sl_test.dir/sync_sl_test.c.o: ../lib/src/p
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -316,6 +317,8 @@ lib/src/phy/sync/test/CMakeFiles/sync_sl_test.dir/sync_sl_test.c.o: ../lib/src/p
 
 ../lib/include/srsran/phy/fec/ldpc/ldpc_decoder.h:
 
+../lib/include/srsran/phy/phch/sch_nr.h:
+
 /usr/include/x86_64-linux-gnu/sys/time.h:
 
 /usr/include/asm-generic/socket.h:
@@ -341,8 +344,6 @@ lib/src/phy/sync/test/CMakeFiles/sync_sl_test.dir/sync_sl_test.c.o: ../lib/src/p
 /usr/include/linux/errno.h:
 
 ../lib/include/srsran/phy/phch/pbch_nr.h:
-
-../lib/include/srsran/phy/phch/sch_nr.h:
 
 /usr/include/errno.h:
 
@@ -841,6 +842,8 @@ lib/include/srsran/version.h:
 ../lib/include/srsran/phy/phch/ra_ul_nr.h:
 
 ../lib/include/srsran/phy/ue/ue_sync.h:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/sync/sync.h:
 

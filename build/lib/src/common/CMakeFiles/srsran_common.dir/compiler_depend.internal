@@ -2236,6 +2236,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap.cc.o
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cfo.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_mib.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_sync.h
+ /usr/local/include/liquid/liquid.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/agc/agc.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/sync.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cp.h
@@ -3070,6 +3071,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap_net.cc.o
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cfo.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_mib.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_sync.h
+ /usr/local/include/liquid/liquid.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/agc/agc.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/sync.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cp.h
@@ -3482,6 +3484,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/nas_pcap.cc.o
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cfo.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_mib.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_sync.h
+ /usr/local/include/liquid/liquid.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/agc/agc.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/sync.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cp.h
@@ -4213,6 +4216,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/ngap_pcap.cc.o
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cfo.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_mib.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_sync.h
+ /usr/local/include/liquid/liquid.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/agc/agc.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/sync.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cp.h
@@ -4690,6 +4694,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/phy_cfg_nr.cc.o
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cfo.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_mib.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_sync.h
+ /usr/local/include/liquid/liquid.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/agc/agc.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/sync.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cp.h
@@ -5146,6 +5151,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/phy_cfg_nr_default.cc.o
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cfo.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_mib.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_sync.h
+ /usr/local/include/liquid/liquid.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/agc/agc.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/sync.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cp.h
@@ -5652,6 +5658,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/rlc_pcap.cc.o
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cfo.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_mib.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_sync.h
+ /usr/local/include/liquid/liquid.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/agc/agc.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/sync.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cp.h
@@ -6056,6 +6063,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/s1ap_pcap.cc.o
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cfo.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_mib.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_sync.h
+ /usr/local/include/liquid/liquid.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/agc/agc.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/sync.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cp.h

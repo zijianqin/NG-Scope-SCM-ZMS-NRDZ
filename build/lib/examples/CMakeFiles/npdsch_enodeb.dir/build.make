@@ -97,6 +97,8 @@ lib/examples/npdsch_enodeb: lib/src/phy/rf/libsrsran_rf.so.23.04.0
 lib/examples/npdsch_enodeb: lib/src/phy/rf/libsrsran_rf_utils.a
 lib/examples/npdsch_enodeb: lib/src/phy/libsrsran_phy.a
 lib/examples/npdsch_enodeb: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/examples/npdsch_enodeb: /usr/local/lib/libliquid.so
+lib/examples/npdsch_enodeb: /usr/local/lib/libliquid.a
 lib/examples/npdsch_enodeb: lib/examples/CMakeFiles/npdsch_enodeb.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable npdsch_enodeb"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/lib/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/npdsch_enodeb.dir/link.txt --verbose=$(VERBOSE)

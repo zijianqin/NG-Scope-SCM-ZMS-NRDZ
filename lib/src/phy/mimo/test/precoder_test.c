@@ -159,8 +159,8 @@ void populate_channel(srsran_tx_scheme_t type, cf_t* h[SRSRAN_MAX_PORTS][SRSRAN_
       populate_channel_single(h[0][0]);
   }
 }
-
-static void awgn(cf_t* y[SRSRAN_MAX_PORTS], uint32_t n, float snr)
+// modified by paws to support liquid.h 
+static void awgn1(cf_t** y, uint32_t n, float snr)
 {
   int   i;
   float var = srsran_convert_dB_to_power(-snr) * scaling * scaling;
@@ -286,7 +286,7 @@ int main(int argc, char** argv)
     }
   }
 
-  awgn(r, (uint32_t)nof_re, snr_db);
+  awgn1(r, (uint32_t)nof_re, snr_db);  // modified by paws to support liquid.h 
 
   /* If CDD or Spatial muliplex choose decoder */
   if (strncmp(decoder_type_name, "zf", 16) == 0) {

@@ -247,6 +247,7 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/cqi.c.o: ../lib/src/phy/phch/cqi.c \
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -643,6 +644,7 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/dci.c.o: ../lib/src/phy/phch/dci.c \
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -1751,6 +1753,7 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/pbch.c.o: ../lib/src/phy/phch/pbch.c
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -2709,6 +2712,7 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/pdsch.c.o: ../lib/src/phy/phch/pdsch
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -4238,6 +4242,7 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/pucch.c.o: ../lib/src/phy/phch/pucch
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -4901,6 +4906,7 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/pusch.c.o: ../lib/src/phy/phch/pusch
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -5343,6 +5349,7 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/ra.c.o: ../lib/src/phy/phch/ra.c \
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -5622,6 +5629,7 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/ra_dl.c.o: ../lib/src/phy/phch/ra_dl
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -6383,6 +6391,7 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/ra_ul.c.o: ../lib/src/phy/phch/ra_ul
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -6917,6 +6926,7 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/sch.c.o: ../lib/src/phy/phch/sch.c \
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -7728,10 +7738,6 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/uci_nr.c.o: ../lib/src/phy/phch/uci_
 
 ../lib/include/srsran/phy/phch/npbch.h:
 
-../lib/src/phy/phch/sch.c:
-
-../lib/src/phy/phch/dci_nbiot.c:
-
 ../lib/src/phy/phch/dci.c:
 
 ../lib/src/phy/phch/csi.c:
@@ -7741,6 +7747,8 @@ lib/src/phy/phch/CMakeFiles/srsran_phch.dir/uci_nr.c.o: ../lib/src/phy/phch/uci_
 ../lib/include/srsran/phy/sync/refsignal_dl_sync.h:
 
 ../lib/include/srsran/phy/ue/ngscope_tree.h:
+
+../lib/include/srsran/phy/ue/ngscope.h:
 
 ../lib/include/srsran/phy/phch/pusch.h:
 
@@ -8280,8 +8288,6 @@ lib/include/srsran/version.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
 
-../lib/include/srsran/phy/ue/ngscope.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmivlintrin.h:
 
 ../lib/include/srsran/phy/ue/ue_cell_search.h:
@@ -8357,6 +8363,12 @@ lib/include/srsran/version.h:
 ../lib/include/srsran/phy/phch/pscch.h:
 
 ../lib/include/srsran/phy/phch/pusch_nr.h:
+
+../lib/src/phy/phch/sch.c:
+
+../lib/src/phy/phch/dci_nbiot.c:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/sync/sync.h:
 

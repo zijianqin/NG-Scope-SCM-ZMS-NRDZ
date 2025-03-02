@@ -259,6 +259,7 @@ lib/src/phy/phch/test/CMakeFiles/prach_test_usrp.dir/prach_test_usrp.c.o: ../lib
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -316,6 +317,8 @@ lib/src/phy/phch/test/CMakeFiles/prach_test_usrp.dir/prach_test_usrp.c.o: ../lib
 
 ../lib/include/srsran/phy/fec/ldpc/ldpc_decoder.h:
 
+../lib/include/srsran/phy/phch/sch_nr.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
@@ -327,8 +330,6 @@ lib/src/phy/phch/test/CMakeFiles/prach_test_usrp.dir/prach_test_usrp.c.o: ../lib
 /usr/include/linux/errno.h:
 
 ../lib/include/srsran/phy/phch/pbch_nr.h:
-
-../lib/include/srsran/phy/phch/sch_nr.h:
 
 /usr/include/x86_64-linux-gnu/sys/time.h:
 
@@ -841,6 +842,8 @@ lib/include/srsran/version.h:
 ../lib/include/srsran/phy/phch/ra_ul_nr.h:
 
 ../lib/include/srsran/phy/ue/ue_sync.h:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/sync/sync.h:
 

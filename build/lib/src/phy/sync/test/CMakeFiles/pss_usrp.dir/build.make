@@ -97,6 +97,8 @@ lib/src/phy/sync/test/pss_usrp: lib/src/phy/libsrsran_phy.a
 lib/src/phy/sync/test/pss_usrp: lib/src/phy/rf/libsrsran_rf_utils.a
 lib/src/phy/sync/test/pss_usrp: lib/src/phy/libsrsran_phy.a
 lib/src/phy/sync/test/pss_usrp: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/src/phy/sync/test/pss_usrp: /usr/local/lib/libliquid.so
+lib/src/phy/sync/test/pss_usrp: /usr/local/lib/libliquid.a
 lib/src/phy/sync/test/pss_usrp: lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pss_usrp"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/lib/src/phy/sync/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pss_usrp.dir/link.txt --verbose=$(VERBOSE)

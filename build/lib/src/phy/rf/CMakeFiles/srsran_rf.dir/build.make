@@ -87,6 +87,8 @@ lib/src/phy/rf/libsrsran_rf.so.23.04.0: lib/src/phy/rf/CMakeFiles/srsran_rf.dir/
 lib/src/phy/rf/libsrsran_rf.so.23.04.0: lib/src/phy/rf/libsrsran_rf_utils.a
 lib/src/phy/rf/libsrsran_rf.so.23.04.0: lib/src/phy/libsrsran_phy.a
 lib/src/phy/rf/libsrsran_rf.so.23.04.0: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/src/phy/rf/libsrsran_rf.so.23.04.0: /usr/local/lib/libliquid.so
+lib/src/phy/rf/libsrsran_rf.so.23.04.0: /usr/local/lib/libliquid.a
 lib/src/phy/rf/libsrsran_rf.so.23.04.0: lib/src/phy/rf/CMakeFiles/srsran_rf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library libsrsran_rf.so"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/lib/src/phy/rf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srsran_rf.dir/link.txt --verbose=$(VERBOSE)

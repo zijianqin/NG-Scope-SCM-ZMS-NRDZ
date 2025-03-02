@@ -100,6 +100,8 @@ lib/test/rlc/rlc_stress_test: /usr/lib/x86_64-linux-gnu/libboost_program_options
 lib/test/rlc/rlc_stress_test: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0
 lib/test/rlc/rlc_stress_test: lib/src/phy/libsrsran_phy.a
 lib/test/rlc/rlc_stress_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/rlc/rlc_stress_test: /usr/local/lib/libliquid.so
+lib/test/rlc/rlc_stress_test: /usr/local/lib/libliquid.a
 lib/test/rlc/rlc_stress_test: lib/src/support/libsupport.a
 lib/test/rlc/rlc_stress_test: lib/src/srslog/libsrslog.a
 lib/test/rlc/rlc_stress_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

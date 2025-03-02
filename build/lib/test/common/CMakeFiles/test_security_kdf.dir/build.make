@@ -95,6 +95,8 @@ lib/test/common/test_security_kdf: lib/test/common/CMakeFiles/test_security_kdf.
 lib/test/common/test_security_kdf: lib/src/common/libsrsran_common.a
 lib/test/common/test_security_kdf: lib/src/phy/libsrsran_phy.a
 lib/test/common/test_security_kdf: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/common/test_security_kdf: /usr/local/lib/libliquid.so
+lib/test/common/test_security_kdf: /usr/local/lib/libliquid.a
 lib/test/common/test_security_kdf: lib/src/support/libsupport.a
 lib/test/common/test_security_kdf: lib/src/srslog/libsrslog.a
 lib/test/common/test_security_kdf: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

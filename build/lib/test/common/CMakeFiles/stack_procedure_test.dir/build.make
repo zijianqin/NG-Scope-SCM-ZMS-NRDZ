@@ -95,6 +95,8 @@ lib/test/common/stack_procedure_test: lib/test/common/CMakeFiles/stack_procedure
 lib/test/common/stack_procedure_test: lib/src/common/libsrsran_common.a
 lib/test/common/stack_procedure_test: lib/src/phy/libsrsran_phy.a
 lib/test/common/stack_procedure_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/common/stack_procedure_test: /usr/local/lib/libliquid.so
+lib/test/common/stack_procedure_test: /usr/local/lib/libliquid.a
 lib/test/common/stack_procedure_test: lib/src/support/libsupport.a
 lib/test/common/stack_procedure_test: lib/src/srslog/libsrslog.a
 lib/test/common/stack_procedure_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

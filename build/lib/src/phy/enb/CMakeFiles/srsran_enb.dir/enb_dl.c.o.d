@@ -237,6 +237,7 @@ lib/src/phy/enb/CMakeFiles/srsran_enb.dir/enb_dl.c.o: \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_cell_search.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_mib.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_sync.h \
+ /usr/local/include/liquid/liquid.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/agc/agc.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/sync.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cp.h \

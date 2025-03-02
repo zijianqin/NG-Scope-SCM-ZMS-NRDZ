@@ -124,6 +124,8 @@ cellscanner/source/cellscanner: lib/src/phy/rf/libsrsran_rf.so.23.04.0
 cellscanner/source/cellscanner: lib/src/phy/rf/libsrsran_rf_utils.a
 cellscanner/source/cellscanner: lib/src/phy/libsrsran_phy.a
 cellscanner/source/cellscanner: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+cellscanner/source/cellscanner: /usr/local/lib/libliquid.so
+cellscanner/source/cellscanner: /usr/local/lib/libliquid.a
 cellscanner/source/cellscanner: cellscanner/source/CMakeFiles/cellscanner.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cellscanner"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/cellscanner/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cellscanner.dir/link.txt --verbose=$(VERBOSE)

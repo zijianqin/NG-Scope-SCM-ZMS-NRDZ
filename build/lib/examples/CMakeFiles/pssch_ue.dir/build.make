@@ -102,6 +102,8 @@ lib/examples/pssch_ue: /usr/lib/x86_64-linux-gnu/libsctp.so
 lib/examples/pssch_ue: lib/src/phy/rf/libsrsran_rf_utils.a
 lib/examples/pssch_ue: lib/src/phy/libsrsran_phy.a
 lib/examples/pssch_ue: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/examples/pssch_ue: /usr/local/lib/libliquid.so
+lib/examples/pssch_ue: /usr/local/lib/libliquid.a
 lib/examples/pssch_ue: lib/examples/CMakeFiles/pssch_ue.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pssch_ue"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/lib/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pssch_ue.dir/link.txt --verbose=$(VERBOSE)

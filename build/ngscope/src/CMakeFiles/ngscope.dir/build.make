@@ -116,6 +116,8 @@ ngscope/src/ngscope: lib/src/asn1/libasn1_utils.a
 ngscope/src/ngscope: lib/src/common/libsrsran_common.a
 ngscope/src/ngscope: lib/src/phy/libsrsran_phy.a
 ngscope/src/ngscope: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+ngscope/src/ngscope: /usr/local/lib/libliquid.so
+ngscope/src/ngscope: /usr/local/lib/libliquid.a
 ngscope/src/ngscope: lib/src/srslog/libsrslog.a
 ngscope/src/ngscope: lib/src/support/libsupport.a
 ngscope/src/ngscope: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

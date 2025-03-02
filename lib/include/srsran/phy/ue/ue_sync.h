@@ -45,6 +45,8 @@
 #define SRSRAN_UE_SYNC_H
 
 #include <stdbool.h>
+#include <pthread.h>
+#include <liquid/liquid.h>
 
 #include "srsran/config.h"
 #include "srsran/phy/agc/agc.h"
@@ -55,6 +57,11 @@
 #include "srsran/phy/phch/pbch.h"
 #include "srsran/phy/sync/cfo.h"
 #include "srsran/phy/sync/sync.h"
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 #define DEFAULT_SAMPLE_OFFSET_CORRECT_PERIOD  10
 #define DEFAULT_SFO_EMA_COEFF                 0.1
@@ -131,6 +138,7 @@ typedef struct SRSRAN_API {
   float cfo_pss_min;
   float cfo_ref_min;
   float cfo_ref_max;
+  float resample_ratio;  // added by paws to support resampling
 
   uint32_t pss_stable_cnt;
   uint32_t pss_stable_timeout;
@@ -148,6 +156,30 @@ typedef struct SRSRAN_API {
   float mean_exec_time;
   #endif
 } srsran_ue_sync_t;
+
+// added by paws to support resampling
+typedef struct SRSRAN_API {
+  msresamp_crcf resampler;
+  cf_t * temp_y; // resampler will save result to temp_y; then copy temp_y result to place you want
+} resampler_kit;
+
+// added by paws to support resampling
+typedef struct SRSRAN_API {
+  resampler_kit *rk; // resampler kit
+  cf_t *in; // in buffer (no shift)
+  uint32_t splitted_nx; // resample amount for each worker
+  uint32_t worker_idx; // worker id (to determine which range)
+  uint32_t * actual_sf_sz_splitted; // resampled point num
+} resample_partially_args_ngscope;
+
+// added by paws to support resampling
+SRSRAN_API int prepare_resampler(resampler_kit * q, float resample_ratio, uint32_t pre_resample_sf_sz, uint32_t resample_worker_num);
+
+/**
+ * @brief Resample only part of the raw signals (thus should be collectively used by multiple threads)
+ */
+// added by paws to support resampling
+SRSRAN_API void *resample_partially_ngscope(void * args);
 
 SRSRAN_API int srsran_ue_sync_init(srsran_ue_sync_t* q,
                                    uint32_t          max_prb,
@@ -221,6 +253,16 @@ SRSRAN_API void srsran_ue_sync_set_agc_period(srsran_ue_sync_t* q, uint32_t peri
 SRSRAN_API int
 srsran_ue_sync_zerocopy(srsran_ue_sync_t* q, cf_t* input_buffer[SRSRAN_MAX_CHANNELS], const uint32_t max_num_samples);
 
+/**
+ * @brief Runs the UE synchronization object, tries to find and track the configured SSB leaving in buffer the
+ * received baseband subframe
+ * @param q UE synchronization object
+ * @param buffer 2D complex buffer
+ * @param rk resampler
+ * @return SRSRAN_SUCCESS if no error occurs, SRSRAN_ERROR code otherwise
+ */
+SRSRAN_API int srsran_ue_sync_zerocopy_twinrx_ngscope(srsran_ue_sync_t* q, cf_t* input_buffer[SRSRAN_MAX_CHANNELS], const uint32_t max_num_samples, resampler_kit * rk, bool resample_needed, uint32_t resample_worker_num);
+
 SRSRAN_API void srsran_ue_sync_set_cfo_tol(srsran_ue_sync_t* q, float tol);
 
 SRSRAN_API void srsran_ue_sync_copy_cfo(srsran_ue_sync_t* q, srsran_ue_sync_t* src_obj);
@@ -270,6 +312,11 @@ SRSRAN_API int srsran_ue_sync_run_find_gnss_mode(srsran_ue_sync_t* q,
 SRSRAN_API int srsran_ue_sync_run_track_gnss_mode(srsran_ue_sync_t* q, cf_t* input_buffer[SRSRAN_MAX_CHANNELS]);
 
 SRSRAN_API int srsran_ue_sync_set_tti_from_timestamp(srsran_ue_sync_t* q, srsran_timestamp_t* rx_timestamp);
+
+#ifdef __cplusplus
+}
+#endif
+
 
 #endif // SRSRAN_UE_SYNC_H
 

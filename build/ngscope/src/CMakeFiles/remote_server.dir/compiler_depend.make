@@ -282,6 +282,7 @@ ngscope/src/CMakeFiles/remote_server.dir/remote_server.c.o: ../ngscope/src/remot
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -370,6 +371,8 @@ ngscope/src/CMakeFiles/remote_server.dir/remote_server.c.o: ../ngscope/src/remot
 ../lib/include/srsran/phy/sync/cp.h:
 
 ../lib/include/srsran/phy/sync/sync.h:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/ue/ue_sync.h:
 

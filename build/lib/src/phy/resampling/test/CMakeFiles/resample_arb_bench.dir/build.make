@@ -94,6 +94,8 @@ lib/src/phy/resampling/test/resample_arb_bench: lib/src/phy/resampling/test/CMak
 lib/src/phy/resampling/test/resample_arb_bench: lib/src/phy/resampling/test/CMakeFiles/resample_arb_bench.dir/build.make
 lib/src/phy/resampling/test/resample_arb_bench: lib/src/phy/libsrsran_phy.a
 lib/src/phy/resampling/test/resample_arb_bench: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/src/phy/resampling/test/resample_arb_bench: /usr/local/lib/libliquid.so
+lib/src/phy/resampling/test/resample_arb_bench: /usr/local/lib/libliquid.a
 lib/src/phy/resampling/test/resample_arb_bench: lib/src/phy/resampling/test/CMakeFiles/resample_arb_bench.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable resample_arb_bench"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/lib/src/phy/resampling/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/resample_arb_bench.dir/link.txt --verbose=$(VERBOSE)

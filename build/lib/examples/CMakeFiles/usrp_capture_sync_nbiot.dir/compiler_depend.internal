@@ -178,6 +178,7 @@ lib/examples/CMakeFiles/usrp_capture_sync_nbiot.dir/usrp_capture_sync_nbiot.c.o
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cp.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/sss.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_sync.h
+ /usr/local/include/liquid/liquid.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/phch/pbch.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/utils/debug.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/utils/phy_logger.h

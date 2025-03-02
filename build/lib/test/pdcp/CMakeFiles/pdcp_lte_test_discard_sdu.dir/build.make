@@ -96,6 +96,8 @@ lib/test/pdcp/pdcp_lte_test_discard_sdu: lib/src/pdcp/libsrsran_pdcp.a
 lib/test/pdcp/pdcp_lte_test_discard_sdu: lib/src/common/libsrsran_common.a
 lib/test/pdcp/pdcp_lte_test_discard_sdu: lib/src/phy/libsrsran_phy.a
 lib/test/pdcp/pdcp_lte_test_discard_sdu: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/pdcp/pdcp_lte_test_discard_sdu: /usr/local/lib/libliquid.so
+lib/test/pdcp/pdcp_lte_test_discard_sdu: /usr/local/lib/libliquid.a
 lib/test/pdcp/pdcp_lte_test_discard_sdu: lib/src/support/libsupport.a
 lib/test/pdcp/pdcp_lte_test_discard_sdu: lib/src/srslog/libsrslog.a
 lib/test/pdcp/pdcp_lte_test_discard_sdu: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

@@ -157,10 +157,11 @@ lib/examples/CMakeFiles/pssch_ue.dir/pssch_ue.c.o: ../lib/examples/pssch_ue.c \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/x86_64-linux-gnu/sys/time.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
-  ../lib/include/srsran/phy/agc/agc.h \
+  /usr/local/include/liquid/liquid.h \
   /usr/include/complex.h \
   /usr/include/x86_64-linux-gnu/bits/mathdef.h \
   /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
+  ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/ch_estimation/chest_dl.h \
   ../lib/include/srsran/phy/ch_estimation/chest_common.h \
   ../lib/include/srsran/phy/ch_estimation/refsignal_dl.h \
@@ -242,6 +243,8 @@ lib/examples/CMakeFiles/pssch_ue.dir/pssch_ue.c.o: ../lib/examples/pssch_ue.c \
 ../lib/include/srsran/phy/ch_estimation/chest_common.h:
 
 /usr/include/x86_64-linux-gnu/bits/cmathcalls.h:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/ue/ue_sync.h:
 

@@ -97,6 +97,8 @@ lib/test/asn1/rrc_asn1_decoder: lib/src/asn1/libasn1_utils.a
 lib/test/asn1/rrc_asn1_decoder: lib/src/common/libsrsran_common.a
 lib/test/asn1/rrc_asn1_decoder: lib/src/phy/libsrsran_phy.a
 lib/test/asn1/rrc_asn1_decoder: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/asn1/rrc_asn1_decoder: /usr/local/lib/libliquid.so
+lib/test/asn1/rrc_asn1_decoder: /usr/local/lib/libliquid.a
 lib/test/asn1/rrc_asn1_decoder: lib/src/support/libsupport.a
 lib/test/asn1/rrc_asn1_decoder: lib/src/srslog/libsrslog.a
 lib/test/asn1/rrc_asn1_decoder: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

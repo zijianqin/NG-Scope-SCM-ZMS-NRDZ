@@ -94,6 +94,8 @@ lib/test/common/timeout_test: lib/test/common/CMakeFiles/timeout_test.dir/timeou
 lib/test/common/timeout_test: lib/test/common/CMakeFiles/timeout_test.dir/build.make
 lib/test/common/timeout_test: lib/src/phy/libsrsran_phy.a
 lib/test/common/timeout_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/common/timeout_test: /usr/local/lib/libliquid.so
+lib/test/common/timeout_test: /usr/local/lib/libliquid.a
 lib/test/common/timeout_test: lib/test/common/CMakeFiles/timeout_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable timeout_test"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/lib/test/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/timeout_test.dir/link.txt --verbose=$(VERBOSE)

@@ -97,6 +97,8 @@ lib/test/phy/phy_dl_test: lib/src/common/libsrsran_common.a
 lib/test/phy/phy_dl_test: lib/src/phy/libsrsran_phy.a
 lib/test/phy/phy_dl_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
 lib/test/phy/phy_dl_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/phy/phy_dl_test: /usr/local/lib/libliquid.so
+lib/test/phy/phy_dl_test: /usr/local/lib/libliquid.a
 lib/test/phy/phy_dl_test: lib/src/support/libsupport.a
 lib/test/phy/phy_dl_test: lib/src/srslog/libsrslog.a
 lib/test/phy/phy_dl_test: /usr/lib/x86_64-linux-gnu/libsctp.so

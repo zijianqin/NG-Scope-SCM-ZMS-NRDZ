@@ -477,6 +477,7 @@ lib/test/asn1/CMakeFiles/srsran_asn1_rrc_ul_dcch_test.dir/srsran_asn1_rrc_ul_dcc
   ../lib/include/srsran/phy/sync/cfo.h \
   ../lib/include/srsran/phy/ue/ue_mib.h \
   ../lib/include/srsran/phy/ue/ue_sync.h \
+  /usr/local/include/liquid/liquid.h \
   ../lib/include/srsran/phy/agc/agc.h \
   ../lib/include/srsran/phy/sync/sync.h \
   ../lib/include/srsran/phy/sync/cp.h \
@@ -651,6 +652,8 @@ lib/test/asn1/CMakeFiles/srsran_asn1_rrc_ul_dcch_test.dir/srsran_asn1_rrc_ul_dcc
 ../lib/include/srsran/phy/sync/sss.h:
 
 ../lib/include/srsran/phy/sync/sync.h:
+
+/usr/local/include/liquid/liquid.h:
 
 ../lib/include/srsran/phy/ue/ue_mib.h:
 

@@ -94,6 +94,8 @@ lib/src/phy/ch_estimation/test/csi_rs_pattern_test: lib/src/phy/ch_estimation/te
 lib/src/phy/ch_estimation/test/csi_rs_pattern_test: lib/src/phy/ch_estimation/test/CMakeFiles/csi_rs_pattern_test.dir/build.make
 lib/src/phy/ch_estimation/test/csi_rs_pattern_test: lib/src/phy/libsrsran_phy.a
 lib/src/phy/ch_estimation/test/csi_rs_pattern_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/src/phy/ch_estimation/test/csi_rs_pattern_test: /usr/local/lib/libliquid.so
+lib/src/phy/ch_estimation/test/csi_rs_pattern_test: /usr/local/lib/libliquid.a
 lib/src/phy/ch_estimation/test/csi_rs_pattern_test: lib/src/phy/ch_estimation/test/CMakeFiles/csi_rs_pattern_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable csi_rs_pattern_test"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/lib/src/phy/ch_estimation/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/csi_rs_pattern_test.dir/link.txt --verbose=$(VERBOSE)

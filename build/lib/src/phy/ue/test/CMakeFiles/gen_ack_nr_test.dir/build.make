@@ -94,6 +94,8 @@ lib/src/phy/ue/test/gen_ack_nr_test: lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_t
 lib/src/phy/ue/test/gen_ack_nr_test: lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/build.make
 lib/src/phy/ue/test/gen_ack_nr_test: lib/src/phy/libsrsran_phy.a
 lib/src/phy/ue/test/gen_ack_nr_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/src/phy/ue/test/gen_ack_nr_test: /usr/local/lib/libliquid.so
+lib/src/phy/ue/test/gen_ack_nr_test: /usr/local/lib/libliquid.a
 lib/src/phy/ue/test/gen_ack_nr_test: lib/src/phy/ue/test/CMakeFiles/gen_ack_nr_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gen_ack_nr_test"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/lib/src/phy/ue/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gen_ack_nr_test.dir/link.txt --verbose=$(VERBOSE)

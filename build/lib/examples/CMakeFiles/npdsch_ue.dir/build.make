@@ -117,6 +117,8 @@ lib/examples/npdsch_ue: lib/src/asn1/libasn1_utils.a
 lib/examples/npdsch_ue: lib/src/common/libsrsran_common.a
 lib/examples/npdsch_ue: lib/src/phy/libsrsran_phy.a
 lib/examples/npdsch_ue: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/examples/npdsch_ue: /usr/local/lib/libliquid.so
+lib/examples/npdsch_ue: /usr/local/lib/libliquid.a
 lib/examples/npdsch_ue: lib/src/support/libsupport.a
 lib/examples/npdsch_ue: lib/src/srslog/libsrslog.a
 lib/examples/npdsch_ue: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

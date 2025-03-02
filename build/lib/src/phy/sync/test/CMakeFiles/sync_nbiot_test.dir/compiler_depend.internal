@@ -117,6 +117,16 @@ lib/src/phy/sync/test/CMakeFiles/sync_nbiot_test.dir/sync_nbiot_test.c.o
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/utils/vector.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/sss.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_sync.h
+ /usr/include/pthread.h
+ /usr/include/sched.h
+ /usr/include/x86_64-linux-gnu/bits/sched.h
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h
+ /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h
+ /usr/local/include/liquid/liquid.h
+ /usr/include/inttypes.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/agc/agc.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ch_estimation/chest_dl.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ch_estimation/chest_common.h
@@ -124,7 +134,6 @@ lib/src/phy/sync/test/CMakeFiles/sync_nbiot_test.dir/sync_nbiot_test.c.o
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/resampling/interp.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ch_estimation/wiener_dl.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/utils/random.h
- /usr/include/inttypes.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/common/timestamp.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/dft/ofdm.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/cfr/cfr.h
@@ -154,14 +163,6 @@ lib/src/phy/sync/test/CMakeFiles/sync_nbiot_test.dir/sync_nbiot_test.c.o
  /usr/include/asm-generic/errno.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h
- /usr/include/pthread.h
- /usr/include/sched.h
- /usr/include/x86_64-linux-gnu/bits/sched.h
- /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h
- /usr/include/x86_64-linux-gnu/bits/cpu-set.h
- /usr/include/x86_64-linux-gnu/bits/setjmp.h
- /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h
- /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h
  /usr/include/x86_64-linux-gnu/sys/time.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/utils/ringbuffer.h
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/utils/phy_logger.h

@@ -95,6 +95,8 @@ lib/test/common/queue_test: lib/test/common/CMakeFiles/queue_test.dir/build.make
 lib/test/common/queue_test: lib/src/common/libsrsran_common.a
 lib/test/common/queue_test: lib/src/phy/libsrsran_phy.a
 lib/test/common/queue_test: /usr/lib/x86_64-linux-gnu/libfftw3f.so
+lib/test/common/queue_test: /usr/local/lib/libliquid.so
+lib/test/common/queue_test: /usr/local/lib/libliquid.a
 lib/test/common/queue_test: lib/src/support/libsupport.a
 lib/test/common/queue_test: lib/src/srslog/libsrslog.a
 lib/test/common/queue_test: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so

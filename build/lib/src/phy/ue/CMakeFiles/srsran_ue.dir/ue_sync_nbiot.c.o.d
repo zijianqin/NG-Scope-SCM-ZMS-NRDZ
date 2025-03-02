@@ -124,13 +124,6 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nbiot.c.o: \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/cp.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/sync/sss.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/ue/ue_sync.h \
- /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/phch/pbch.h \
- /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/utils/debug.h \
- /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/utils/phy_logger.h \
- /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
@@ -138,6 +131,14 @@ lib/src/phy/ue/CMakeFiles/srsran_ue.dir/ue_sync_nbiot.c.o: \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/local/include/liquid/liquid.h \
+ /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/phch/pbch.h \
+ /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/utils/debug.h \
+ /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/phy/utils/phy_logger.h \
+ /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/assert.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/lib/include/srsran/srsran.h \
  /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/lib/include/srsran/version.h \
