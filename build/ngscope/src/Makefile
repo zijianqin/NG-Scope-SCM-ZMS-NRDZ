@@ -233,29 +233,29 @@ remote_server/fast:
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/CMakeFiles/remote_server.dir/build.make ngscope/src/CMakeFiles/remote_server.dir/build
 .PHONY : remote_server/fast
 
-main.o: main.c.o
+main.o: main.cc.o
 .PHONY : main.o
 
 # target to build an object file
-main.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/CMakeFiles/ngscope.dir/build.make ngscope/src/CMakeFiles/ngscope.dir/main.c.o
-.PHONY : main.c.o
+main.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/CMakeFiles/ngscope.dir/build.make ngscope/src/CMakeFiles/ngscope.dir/main.cc.o
+.PHONY : main.cc.o
 
-main.i: main.c.i
+main.i: main.cc.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/CMakeFiles/ngscope.dir/build.make ngscope/src/CMakeFiles/ngscope.dir/main.c.i
-.PHONY : main.c.i
+main.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/CMakeFiles/ngscope.dir/build.make ngscope/src/CMakeFiles/ngscope.dir/main.cc.i
+.PHONY : main.cc.i
 
-main.s: main.c.s
+main.s: main.cc.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/CMakeFiles/ngscope.dir/build.make ngscope/src/CMakeFiles/ngscope.dir/main.c.s
-.PHONY : main.c.s
+main.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/CMakeFiles/ngscope.dir/build.make ngscope/src/CMakeFiles/ngscope.dir/main.cc.s
+.PHONY : main.cc.s
 
 remote_client.o: remote_client.c.o
 .PHONY : remote_client.o

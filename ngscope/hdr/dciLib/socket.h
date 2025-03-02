@@ -21,6 +21,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+
 int connectServer();
 
 int accept_slave_connect(int* server_fd, int* client_fd_vec, int portNum);

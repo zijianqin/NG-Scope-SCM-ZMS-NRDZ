@@ -21,6 +21,10 @@
 
 #include "dci_sink_def.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef struct{
 	struct sockaddr_in 	client_addr[MAX_CLIENT];
 	int 				nof_client;
@@ -45,4 +49,9 @@ int sock_send_config(ngscope_dci_sink_serv_t* q, cell_config_t* cell_config);
 int sock_send_single_dci(ngscope_dci_sink_serv_t* q, ue_dci_t* ue_dci, int proto_v);
 
 struct sockaddr_in sock_create_serv_addr(char serv_IP[40], int serv_port);
+
+#ifdef __cplusplus
+}
+#endif
+
 #endif

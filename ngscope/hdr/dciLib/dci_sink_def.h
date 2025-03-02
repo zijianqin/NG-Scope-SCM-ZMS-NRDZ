@@ -17,6 +17,10 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 
 #define MAX_NOF_CELL 4
 #define NOF_LOG_DCI 1000
@@ -54,5 +58,8 @@ typedef struct{
 	uint16_t rnti;
 }cell_config_t;
 
+#ifdef __cplusplus
+}
+#endif
 
 #endif

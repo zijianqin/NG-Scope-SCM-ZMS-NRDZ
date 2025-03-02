@@ -1,12 +1,15 @@
 #ifndef SIB1_HELPER_H
 #define SIB1_HELPER_H
 
+#include "srsran/phy/phch/ra.h"
+#include <stdint.h>
+
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-#include "srsran/phy/phch/ra.h"
-#include <stdint.h>
+
 
 typedef struct {
     int sf_config;

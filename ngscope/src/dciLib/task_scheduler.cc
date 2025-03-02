@@ -112,7 +112,7 @@ int srsran_rf_recv_wrapper(void* h, cf_t* data_[SRSRAN_MAX_PORTS], uint32_t nsam
     ptr[i] = data_[i];
   }
   //return srsran_rf_recv_with_time_multi(h, ptr, nsamples, true, NULL, NULL);
-  return srsran_rf_recv_with_time_multi(h, ptr, nsamples, true, &t->full_secs, &t->frac_secs);
+  return srsran_rf_recv_with_time_multi((srsran_rf_t*)h, ptr, nsamples, true, &t->full_secs, &t->frac_secs);
 }
 
 static SRSRAN_AGC_CALLBACK(srsran_rf_set_rx_gain_th_wrapper_)

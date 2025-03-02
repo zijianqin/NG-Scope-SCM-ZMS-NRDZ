@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/main.c" "ngscope/src/CMakeFiles/ngscope.dir/main.c.o" "gcc" "ngscope/src/CMakeFiles/ngscope.dir/main.c.o.d"
+  "/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/main.cc" "ngscope/src/CMakeFiles/ngscope.dir/main.cc.o" "gcc" "ngscope/src/CMakeFiles/ngscope.dir/main.cc.o.d"
   )
 
 # Targets to which this target links.

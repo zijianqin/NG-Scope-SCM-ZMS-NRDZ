@@ -14,11 +14,12 @@
 #include <unistd.h>
 #include <stdint.h>
 
+#include "ngscope_def.h"
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-#include "ngscope_def.h"
 
 #define MAX_TMP_BUFFER 15
 
@@ -54,4 +55,5 @@ int task_sf_ring_buffer_len(task_tmp_buffer_t* q);
 #ifdef __cplusplus
 }
 #endif
+
 #endif

@@ -70,7 +70,9 @@ typedef struct{
 }ngscope_status_tracker_t;
 
 void* status_tracker_thread(void* p);
+
 #ifdef __cplusplus
 }
 #endif
+
 #endif

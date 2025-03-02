@@ -13,14 +13,16 @@
 #include <sys/time.h>
 #include <unistd.h>
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 #include "srsran/phy/rf/rf.h"
 #include "srsran/phy/rf/rf_utils.h"
 
 #include "parse_args.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 //#include "rf_utils.h"
 int radio_init_and_start(srsran_rf_t* rf, 
                     srsran_cell_t* cell, 
@@ -29,6 +31,8 @@ int radio_init_and_start(srsran_rf_t* rf,
                     float* search_cell_cfo);
 
 int radio_stop(srsran_rf_t* rf);
+
+
 #ifdef __cplusplus
 }
 #endif

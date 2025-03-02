@@ -11,6 +11,8 @@
 #include <unistd.h>
 #include <getopt.h>
 
+#include <string>
+
 #include "srsran/common/crash_handler.h"
 #include "srsran/srsran.h"
 
@@ -23,9 +25,9 @@
 // #include "ngscope/hdr/dciLib/asn_decoder.h"
 
 
-const char* DEFAULT_CELLCFG_OUTPUT = "cell_cfg"; // global variable, default cell configuration output file
-const char* DEFAULT_SIB_OUTPUT = "decoded_sibs"; // global variable, default sib output file
-const char* DEFAULT_DCI_OUTPUT = "dci_output"; // global variable, default dci output file
+std::string DEFAULT_CELLCFG_OUTPUT = "cell_cfg"; // global variable, default cell configuration output file
+std::string DEFAULT_SIB_OUTPUT = "decoded_sibs"; // global variable, default sib output file
+std::string DEFAULT_DCI_OUTPUT = "dci_output"; // global variable, default dci output file
 
 bool go_exit = false; // global variable for signaling
 bool have_sib1 = false; // global variable for sib1 decoding
@@ -81,25 +83,38 @@ int main(int argc, char** argv)
     ngscope_config_t config;
     int c;
     /* Variables tahtw ill hold the command line arguments */
-    char* config_path = NULL;
-    char* cellcfg_path = NULL;
-    char* sib_path = NULL;
-    char* out_path = NULL;
+    char config_path[64] = {};
+    char cellcfg_path[64] = {};
+    char sib_path[64] = {};
+    char out_path[64] = {};
+    std::string argvstr;
 
     /* Parsing command line arguments */
     while ((c = getopt (argc, argv, "c:s:b:o:h")) != -1) {
       switch (c) {
         case 'c':
-          config_path = optarg;
+          argvstr = optarg;
+          // strcpy(config_path, optarg);
+          strcpy(config_path, argvstr.c_str());
+          // config_path = argvstr.c_str();
           break;
         case 'b':
-          cellcfg_path = optarg;
+          // strcpy(cellcfg_path, optarg);
+          // cellcfg_path = optarg;
+          argvstr = optarg;
+          strcpy(cellcfg_path, argvstr.c_str());
           break;
         case 's':
-          sib_path = optarg;
+          // strcpy(sib_path, optarg);
+          // sib_path = optarg;
+          argvstr = optarg;
+          strcpy(sib_path, argvstr.c_str());
           break;
         case 'o':
-          out_path = optarg;
+          // strcpy(out_path, optarg);
+          // out_path = optarg;
+          argvstr = optarg;
+          strcpy(out_path, argvstr.c_str());
           break;
         case 'h':
           print_help();
@@ -132,15 +147,17 @@ int main(int argc, char** argv)
     }
     printf("Configuration file: %s\n", config_path);
     /* Check SIB output */
-    if(sib_path == NULL) {
-      sib_path = DEFAULT_SIB_OUTPUT;
+    if(!strcmp(sib_path, "")) {
+      strcpy(sib_path, "sib_output");
+      // sib_path = DEFAULT_SIB_OUTPUT;
       printf("SIB output file not specified (using '%s')\n", sib_path);
     } else {
       printf("Decoded SIB file: %s\n", sib_path);
     }
     /* Check DCI output */
-    if(out_path == NULL) {
-      out_path = DEFAULT_DCI_OUTPUT;
+    if(!strcmp(out_path, "")) {
+      strcpy(out_path, "dci_output");
+      // out_path = DEFAULT_DCI_OUTPUT;
       printf("DCI logs folder not specified (using '%s')\n", out_path);
     } else {
       printf("DCI logs folder: %s\n", out_path);
@@ -158,8 +175,10 @@ int main(int argc, char** argv)
     /* Load the configurations */
     ngscope_read_config(&config, config_path);
     /* Set DCI logs output folder path  */
-    config.dci_logs_path = out_path;
-    config.sib_logs_path = sib_path;
+    strcpy(config.dci_logs_path, out_path);
+    strcpy(config.sib_logs_path, sib_path);
+    // config.dci_logs_path = out_path;
+    // config.sib_logs_path = sib_path;
 
     ngscope_main(&config);
     return 1;

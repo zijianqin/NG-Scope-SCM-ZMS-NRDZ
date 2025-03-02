@@ -15,5 +15,15 @@
 #include <stdint.h>
 
 #include "ngscope_def.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 int ngscope_main(ngscope_config_t* config);
+
+#ifdef __cplusplus
+}
+#endif
+
 #endif

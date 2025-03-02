@@ -1,7 +1,12 @@
 #ifndef _CONFIG_H_
 #define _CONFIG_H_
+
 #include <stdio.h>
 #include "task_scheduler.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 typedef struct{
     long long   rf_freq;
@@ -30,8 +35,8 @@ typedef struct{
     int                 remote_enable;
 	int 				decode_single_ue;
 	int 				decode_SIB;
-    const char *        dci_logs_path;
-    const char *        sib_logs_path;
+    char                dci_logs_path[64];
+    char                sib_logs_path[64];
 
     dci_log_config_t    dci_log_config;
     rf_dev_config_t     rf_config[MAX_NOF_RF_DEV];
@@ -39,4 +44,9 @@ typedef struct{
 
 int ngscope_read_config(ngscope_config_t* config, char * path);
 bool ngscope_config_check_log(ngscope_config_t* config);
+
+#ifdef __cplusplus
+}
+#endif
+
 #endif

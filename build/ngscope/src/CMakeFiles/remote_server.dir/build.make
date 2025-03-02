@@ -119,6 +119,7 @@ ngscope/src/remote_server: /usr/lib/x86_64-linux-gnu/libfftw3f.so
 ngscope/src/remote_server: lib/src/srslog/libsrslog.a
 ngscope/src/remote_server: lib/src/support/libsupport.a
 ngscope/src/remote_server: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
+ngscope/src/remote_server: /usr/lib/x86_64-linux-gnu/libsctp.so
 ngscope/src/remote_server: ngscope/src/CMakeFiles/remote_server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable remote_server"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/remote_server.dir/link.txt --verbose=$(VERBOSE)

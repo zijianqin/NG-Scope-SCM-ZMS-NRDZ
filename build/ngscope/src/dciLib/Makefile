@@ -229,293 +229,293 @@ asn_decoder.c.s:
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/asn_decoder.c.s
 .PHONY : asn_decoder.c.s
 
-cell_status.o: cell_status.c.o
+cell_status.o: cell_status.cc.o
 .PHONY : cell_status.o
 
 # target to build an object file
-cell_status.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.c.o
-.PHONY : cell_status.c.o
+cell_status.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.cc.o
+.PHONY : cell_status.cc.o
 
-cell_status.i: cell_status.c.i
+cell_status.i: cell_status.cc.i
 .PHONY : cell_status.i
 
 # target to preprocess a source file
-cell_status.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.c.i
-.PHONY : cell_status.c.i
+cell_status.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.cc.i
+.PHONY : cell_status.cc.i
 
-cell_status.s: cell_status.c.s
+cell_status.s: cell_status.cc.s
 .PHONY : cell_status.s
 
 # target to generate assembly for a file
-cell_status.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.c.s
-.PHONY : cell_status.c.s
+cell_status.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.cc.s
+.PHONY : cell_status.cc.s
 
-dci_decoder.o: dci_decoder.c.o
+dci_decoder.o: dci_decoder.cc.o
 .PHONY : dci_decoder.o
 
 # target to build an object file
-dci_decoder.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.c.o
-.PHONY : dci_decoder.c.o
+dci_decoder.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.cc.o
+.PHONY : dci_decoder.cc.o
 
-dci_decoder.i: dci_decoder.c.i
+dci_decoder.i: dci_decoder.cc.i
 .PHONY : dci_decoder.i
 
 # target to preprocess a source file
-dci_decoder.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.c.i
-.PHONY : dci_decoder.c.i
+dci_decoder.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.cc.i
+.PHONY : dci_decoder.cc.i
 
-dci_decoder.s: dci_decoder.c.s
+dci_decoder.s: dci_decoder.cc.s
 .PHONY : dci_decoder.s
 
 # target to generate assembly for a file
-dci_decoder.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.c.s
-.PHONY : dci_decoder.c.s
+dci_decoder.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.cc.s
+.PHONY : dci_decoder.cc.s
 
-dci_log.o: dci_log.c.o
+dci_log.o: dci_log.cc.o
 .PHONY : dci_log.o
 
 # target to build an object file
-dci_log.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.c.o
-.PHONY : dci_log.c.o
+dci_log.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.cc.o
+.PHONY : dci_log.cc.o
 
-dci_log.i: dci_log.c.i
+dci_log.i: dci_log.cc.i
 .PHONY : dci_log.i
 
 # target to preprocess a source file
-dci_log.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.c.i
-.PHONY : dci_log.c.i
+dci_log.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.cc.i
+.PHONY : dci_log.cc.i
 
-dci_log.s: dci_log.c.s
+dci_log.s: dci_log.cc.s
 .PHONY : dci_log.s
 
 # target to generate assembly for a file
-dci_log.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.c.s
-.PHONY : dci_log.c.s
+dci_log.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.cc.s
+.PHONY : dci_log.cc.s
 
-dci_ring_buffer.o: dci_ring_buffer.c.o
+dci_ring_buffer.o: dci_ring_buffer.cc.o
 .PHONY : dci_ring_buffer.o
 
 # target to build an object file
-dci_ring_buffer.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.o
-.PHONY : dci_ring_buffer.c.o
+dci_ring_buffer.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.o
+.PHONY : dci_ring_buffer.cc.o
 
-dci_ring_buffer.i: dci_ring_buffer.c.i
+dci_ring_buffer.i: dci_ring_buffer.cc.i
 .PHONY : dci_ring_buffer.i
 
 # target to preprocess a source file
-dci_ring_buffer.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.i
-.PHONY : dci_ring_buffer.c.i
+dci_ring_buffer.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.i
+.PHONY : dci_ring_buffer.cc.i
 
-dci_ring_buffer.s: dci_ring_buffer.c.s
+dci_ring_buffer.s: dci_ring_buffer.cc.s
 .PHONY : dci_ring_buffer.s
 
 # target to generate assembly for a file
-dci_ring_buffer.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.s
-.PHONY : dci_ring_buffer.c.s
+dci_ring_buffer.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.s
+.PHONY : dci_ring_buffer.cc.s
 
-dci_sink_client.o: dci_sink_client.c.o
+dci_sink_client.o: dci_sink_client.cc.o
 .PHONY : dci_sink_client.o
 
 # target to build an object file
-dci_sink_client.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.c.o
-.PHONY : dci_sink_client.c.o
+dci_sink_client.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.o
+.PHONY : dci_sink_client.cc.o
 
-dci_sink_client.i: dci_sink_client.c.i
+dci_sink_client.i: dci_sink_client.cc.i
 .PHONY : dci_sink_client.i
 
 # target to preprocess a source file
-dci_sink_client.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.c.i
-.PHONY : dci_sink_client.c.i
+dci_sink_client.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.i
+.PHONY : dci_sink_client.cc.i
 
-dci_sink_client.s: dci_sink_client.c.s
+dci_sink_client.s: dci_sink_client.cc.s
 .PHONY : dci_sink_client.s
 
 # target to generate assembly for a file
-dci_sink_client.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.c.s
-.PHONY : dci_sink_client.c.s
+dci_sink_client.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.s
+.PHONY : dci_sink_client.cc.s
 
-dci_sink_recv_dci.o: dci_sink_recv_dci.c.o
+dci_sink_recv_dci.o: dci_sink_recv_dci.cc.o
 .PHONY : dci_sink_recv_dci.o
 
 # target to build an object file
-dci_sink_recv_dci.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.o
-.PHONY : dci_sink_recv_dci.c.o
+dci_sink_recv_dci.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.o
+.PHONY : dci_sink_recv_dci.cc.o
 
-dci_sink_recv_dci.i: dci_sink_recv_dci.c.i
+dci_sink_recv_dci.i: dci_sink_recv_dci.cc.i
 .PHONY : dci_sink_recv_dci.i
 
 # target to preprocess a source file
-dci_sink_recv_dci.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.i
-.PHONY : dci_sink_recv_dci.c.i
+dci_sink_recv_dci.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.i
+.PHONY : dci_sink_recv_dci.cc.i
 
-dci_sink_recv_dci.s: dci_sink_recv_dci.c.s
+dci_sink_recv_dci.s: dci_sink_recv_dci.cc.s
 .PHONY : dci_sink_recv_dci.s
 
 # target to generate assembly for a file
-dci_sink_recv_dci.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.s
-.PHONY : dci_sink_recv_dci.c.s
+dci_sink_recv_dci.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.s
+.PHONY : dci_sink_recv_dci.cc.s
 
-dci_sink_ring_buffer.o: dci_sink_ring_buffer.c.o
+dci_sink_ring_buffer.o: dci_sink_ring_buffer.cc.o
 .PHONY : dci_sink_ring_buffer.o
 
 # target to build an object file
-dci_sink_ring_buffer.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.o
-.PHONY : dci_sink_ring_buffer.c.o
+dci_sink_ring_buffer.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.o
+.PHONY : dci_sink_ring_buffer.cc.o
 
-dci_sink_ring_buffer.i: dci_sink_ring_buffer.c.i
+dci_sink_ring_buffer.i: dci_sink_ring_buffer.cc.i
 .PHONY : dci_sink_ring_buffer.i
 
 # target to preprocess a source file
-dci_sink_ring_buffer.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.i
-.PHONY : dci_sink_ring_buffer.c.i
+dci_sink_ring_buffer.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.i
+.PHONY : dci_sink_ring_buffer.cc.i
 
-dci_sink_ring_buffer.s: dci_sink_ring_buffer.c.s
+dci_sink_ring_buffer.s: dci_sink_ring_buffer.cc.s
 .PHONY : dci_sink_ring_buffer.s
 
 # target to generate assembly for a file
-dci_sink_ring_buffer.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.s
-.PHONY : dci_sink_ring_buffer.c.s
+dci_sink_ring_buffer.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.s
+.PHONY : dci_sink_ring_buffer.cc.s
 
-dci_sink_send_dci.o: dci_sink_send_dci.c.o
+dci_sink_send_dci.o: dci_sink_send_dci.cc.o
 .PHONY : dci_sink_send_dci.o
 
 # target to build an object file
-dci_sink_send_dci.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.o
-.PHONY : dci_sink_send_dci.c.o
+dci_sink_send_dci.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.o
+.PHONY : dci_sink_send_dci.cc.o
 
-dci_sink_send_dci.i: dci_sink_send_dci.c.i
+dci_sink_send_dci.i: dci_sink_send_dci.cc.i
 .PHONY : dci_sink_send_dci.i
 
 # target to preprocess a source file
-dci_sink_send_dci.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.i
-.PHONY : dci_sink_send_dci.c.i
+dci_sink_send_dci.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.i
+.PHONY : dci_sink_send_dci.cc.i
 
-dci_sink_send_dci.s: dci_sink_send_dci.c.s
+dci_sink_send_dci.s: dci_sink_send_dci.cc.s
 .PHONY : dci_sink_send_dci.s
 
 # target to generate assembly for a file
-dci_sink_send_dci.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.s
-.PHONY : dci_sink_send_dci.c.s
+dci_sink_send_dci.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.s
+.PHONY : dci_sink_send_dci.cc.s
 
-dci_sink_serv.o: dci_sink_serv.c.o
+dci_sink_serv.o: dci_sink_serv.cc.o
 .PHONY : dci_sink_serv.o
 
 # target to build an object file
-dci_sink_serv.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.o
-.PHONY : dci_sink_serv.c.o
+dci_sink_serv.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.o
+.PHONY : dci_sink_serv.cc.o
 
-dci_sink_serv.i: dci_sink_serv.c.i
+dci_sink_serv.i: dci_sink_serv.cc.i
 .PHONY : dci_sink_serv.i
 
 # target to preprocess a source file
-dci_sink_serv.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.i
-.PHONY : dci_sink_serv.c.i
+dci_sink_serv.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.i
+.PHONY : dci_sink_serv.cc.i
 
-dci_sink_serv.s: dci_sink_serv.c.s
+dci_sink_serv.s: dci_sink_serv.cc.s
 .PHONY : dci_sink_serv.s
 
 # target to generate assembly for a file
-dci_sink_serv.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.s
-.PHONY : dci_sink_serv.c.s
+dci_sink_serv.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.s
+.PHONY : dci_sink_serv.cc.s
 
-dci_sink_sock.o: dci_sink_sock.c.o
+dci_sink_sock.o: dci_sink_sock.cc.o
 .PHONY : dci_sink_sock.o
 
 # target to build an object file
-dci_sink_sock.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.o
-.PHONY : dci_sink_sock.c.o
+dci_sink_sock.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.o
+.PHONY : dci_sink_sock.cc.o
 
-dci_sink_sock.i: dci_sink_sock.c.i
+dci_sink_sock.i: dci_sink_sock.cc.i
 .PHONY : dci_sink_sock.i
 
 # target to preprocess a source file
-dci_sink_sock.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.i
-.PHONY : dci_sink_sock.c.i
+dci_sink_sock.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.i
+.PHONY : dci_sink_sock.cc.i
 
-dci_sink_sock.s: dci_sink_sock.c.s
+dci_sink_sock.s: dci_sink_sock.cc.s
 .PHONY : dci_sink_sock.s
 
 # target to generate assembly for a file
-dci_sink_sock.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.s
-.PHONY : dci_sink_sock.c.s
+dci_sink_sock.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.s
+.PHONY : dci_sink_sock.cc.s
 
-decode_sib.o: decode_sib.cpp.o
+decode_sib.o: decode_sib.cc.o
 .PHONY : decode_sib.o
 
 # target to build an object file
-decode_sib.cpp.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cpp.o
-.PHONY : decode_sib.cpp.o
+decode_sib.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cc.o
+.PHONY : decode_sib.cc.o
 
-decode_sib.i: decode_sib.cpp.i
+decode_sib.i: decode_sib.cc.i
 .PHONY : decode_sib.i
 
 # target to preprocess a source file
-decode_sib.cpp.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cpp.i
-.PHONY : decode_sib.cpp.i
+decode_sib.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cc.i
+.PHONY : decode_sib.cc.i
 
-decode_sib.s: decode_sib.cpp.s
+decode_sib.s: decode_sib.cc.s
 .PHONY : decode_sib.s
 
 # target to generate assembly for a file
-decode_sib.cpp.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cpp.s
-.PHONY : decode_sib.cpp.s
+decode_sib.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cc.s
+.PHONY : decode_sib.cc.s
 
-load_config.o: load_config.c.o
+load_config.o: load_config.cc.o
 .PHONY : load_config.o
 
 # target to build an object file
-load_config.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.c.o
-.PHONY : load_config.c.o
+load_config.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.cc.o
+.PHONY : load_config.cc.o
 
-load_config.i: load_config.c.i
+load_config.i: load_config.cc.i
 .PHONY : load_config.i
 
 # target to preprocess a source file
-load_config.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.c.i
-.PHONY : load_config.c.i
+load_config.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.cc.i
+.PHONY : load_config.cc.i
 
-load_config.s: load_config.c.s
+load_config.s: load_config.cc.s
 .PHONY : load_config.s
 
 # target to generate assembly for a file
-load_config.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.c.s
-.PHONY : load_config.c.s
+load_config.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.cc.s
+.PHONY : load_config.cc.s
 
 ngscope_main.o: ngscope_main.c.o
 .PHONY : ngscope_main.o
@@ -541,101 +541,101 @@ ngscope_main.c.s:
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_main.c.s
 .PHONY : ngscope_main.c.s
 
-ngscope_util.o: ngscope_util.c.o
+ngscope_util.o: ngscope_util.cc.o
 .PHONY : ngscope_util.o
 
 # target to build an object file
-ngscope_util.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.c.o
-.PHONY : ngscope_util.c.o
+ngscope_util.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.cc.o
+.PHONY : ngscope_util.cc.o
 
-ngscope_util.i: ngscope_util.c.i
+ngscope_util.i: ngscope_util.cc.i
 .PHONY : ngscope_util.i
 
 # target to preprocess a source file
-ngscope_util.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.c.i
-.PHONY : ngscope_util.c.i
+ngscope_util.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.cc.i
+.PHONY : ngscope_util.cc.i
 
-ngscope_util.s: ngscope_util.c.s
+ngscope_util.s: ngscope_util.cc.s
 .PHONY : ngscope_util.s
 
 # target to generate assembly for a file
-ngscope_util.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.c.s
-.PHONY : ngscope_util.c.s
+ngscope_util.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.cc.s
+.PHONY : ngscope_util.cc.s
 
-parse_args.o: parse_args.c.o
+parse_args.o: parse_args.cc.o
 .PHONY : parse_args.o
 
 # target to build an object file
-parse_args.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.c.o
-.PHONY : parse_args.c.o
+parse_args.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.cc.o
+.PHONY : parse_args.cc.o
 
-parse_args.i: parse_args.c.i
+parse_args.i: parse_args.cc.i
 .PHONY : parse_args.i
 
 # target to preprocess a source file
-parse_args.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.c.i
-.PHONY : parse_args.c.i
+parse_args.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.cc.i
+.PHONY : parse_args.cc.i
 
-parse_args.s: parse_args.c.s
+parse_args.s: parse_args.cc.s
 .PHONY : parse_args.s
 
 # target to generate assembly for a file
-parse_args.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.c.s
-.PHONY : parse_args.c.s
+parse_args.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.cc.s
+.PHONY : parse_args.cc.s
 
-phich_decoder.o: phich_decoder.c.o
+phich_decoder.o: phich_decoder.cc.o
 .PHONY : phich_decoder.o
 
 # target to build an object file
-phich_decoder.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.c.o
-.PHONY : phich_decoder.c.o
+phich_decoder.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.cc.o
+.PHONY : phich_decoder.cc.o
 
-phich_decoder.i: phich_decoder.c.i
+phich_decoder.i: phich_decoder.cc.i
 .PHONY : phich_decoder.i
 
 # target to preprocess a source file
-phich_decoder.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.c.i
-.PHONY : phich_decoder.c.i
+phich_decoder.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.cc.i
+.PHONY : phich_decoder.cc.i
 
-phich_decoder.s: phich_decoder.c.s
+phich_decoder.s: phich_decoder.cc.s
 .PHONY : phich_decoder.s
 
 # target to generate assembly for a file
-phich_decoder.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.c.s
-.PHONY : phich_decoder.c.s
+phich_decoder.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.cc.s
+.PHONY : phich_decoder.cc.s
 
-radio.o: radio.c.o
+radio.o: radio.cc.o
 .PHONY : radio.o
 
 # target to build an object file
-radio.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.c.o
-.PHONY : radio.c.o
+radio.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.cc.o
+.PHONY : radio.cc.o
 
-radio.i: radio.c.i
+radio.i: radio.cc.i
 .PHONY : radio.i
 
 # target to preprocess a source file
-radio.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.c.i
-.PHONY : radio.c.i
+radio.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.cc.i
+.PHONY : radio.cc.i
 
-radio.s: radio.c.s
+radio.s: radio.cc.s
 .PHONY : radio.s
 
 # target to generate assembly for a file
-radio.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.c.s
-.PHONY : radio.c.s
+radio.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.cc.s
+.PHONY : radio.cc.s
 
 sib1_helper.o: sib1_helper.cpp.o
 .PHONY : sib1_helper.o
@@ -661,269 +661,269 @@ sib1_helper.cpp.s:
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sib1_helper.cpp.s
 .PHONY : sib1_helper.cpp.s
 
-skip_tti.o: skip_tti.c.o
+skip_tti.o: skip_tti.cc.o
 .PHONY : skip_tti.o
 
 # target to build an object file
-skip_tti.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.c.o
-.PHONY : skip_tti.c.o
+skip_tti.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.cc.o
+.PHONY : skip_tti.cc.o
 
-skip_tti.i: skip_tti.c.i
+skip_tti.i: skip_tti.cc.i
 .PHONY : skip_tti.i
 
 # target to preprocess a source file
-skip_tti.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.c.i
-.PHONY : skip_tti.c.i
+skip_tti.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.cc.i
+.PHONY : skip_tti.cc.i
 
-skip_tti.s: skip_tti.c.s
+skip_tti.s: skip_tti.cc.s
 .PHONY : skip_tti.s
 
 # target to generate assembly for a file
-skip_tti.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.c.s
-.PHONY : skip_tti.c.s
+skip_tti.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.cc.s
+.PHONY : skip_tti.cc.s
 
-socket.o: socket.c.o
+socket.o: socket.cc.o
 .PHONY : socket.o
 
 # target to build an object file
-socket.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.c.o
-.PHONY : socket.c.o
+socket.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.cc.o
+.PHONY : socket.cc.o
 
-socket.i: socket.c.i
+socket.i: socket.cc.i
 .PHONY : socket.i
 
 # target to preprocess a source file
-socket.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.c.i
-.PHONY : socket.c.i
+socket.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.cc.i
+.PHONY : socket.cc.i
 
-socket.s: socket.c.s
+socket.s: socket.cc.s
 .PHONY : socket.s
 
 # target to generate assembly for a file
-socket.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.c.s
-.PHONY : socket.c.s
+socket.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.cc.s
+.PHONY : socket.cc.s
 
-status_plot.o: status_plot.c.o
+status_plot.o: status_plot.cc.o
 .PHONY : status_plot.o
 
 # target to build an object file
-status_plot.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.c.o
-.PHONY : status_plot.c.o
+status_plot.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.cc.o
+.PHONY : status_plot.cc.o
 
-status_plot.i: status_plot.c.i
+status_plot.i: status_plot.cc.i
 .PHONY : status_plot.i
 
 # target to preprocess a source file
-status_plot.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.c.i
-.PHONY : status_plot.c.i
+status_plot.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.cc.i
+.PHONY : status_plot.cc.i
 
-status_plot.s: status_plot.c.s
+status_plot.s: status_plot.cc.s
 .PHONY : status_plot.s
 
 # target to generate assembly for a file
-status_plot.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.c.s
-.PHONY : status_plot.c.s
+status_plot.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.cc.s
+.PHONY : status_plot.cc.s
 
-status_tracker.o: status_tracker.c.o
+status_tracker.o: status_tracker.cc.o
 .PHONY : status_tracker.o
 
 # target to build an object file
-status_tracker.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.c.o
-.PHONY : status_tracker.c.o
+status_tracker.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.cc.o
+.PHONY : status_tracker.cc.o
 
-status_tracker.i: status_tracker.c.i
+status_tracker.i: status_tracker.cc.i
 .PHONY : status_tracker.i
 
 # target to preprocess a source file
-status_tracker.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.c.i
-.PHONY : status_tracker.c.i
+status_tracker.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.cc.i
+.PHONY : status_tracker.cc.i
 
-status_tracker.s: status_tracker.c.s
+status_tracker.s: status_tracker.cc.s
 .PHONY : status_tracker.s
 
 # target to generate assembly for a file
-status_tracker.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.c.s
-.PHONY : status_tracker.c.s
+status_tracker.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.cc.s
+.PHONY : status_tracker.cc.s
 
-sync_dci_remote.o: sync_dci_remote.c.o
+sync_dci_remote.o: sync_dci_remote.cc.o
 .PHONY : sync_dci_remote.o
 
 # target to build an object file
-sync_dci_remote.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.o
-.PHONY : sync_dci_remote.c.o
+sync_dci_remote.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.o
+.PHONY : sync_dci_remote.cc.o
 
-sync_dci_remote.i: sync_dci_remote.c.i
+sync_dci_remote.i: sync_dci_remote.cc.i
 .PHONY : sync_dci_remote.i
 
 # target to preprocess a source file
-sync_dci_remote.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.i
-.PHONY : sync_dci_remote.c.i
+sync_dci_remote.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.i
+.PHONY : sync_dci_remote.cc.i
 
-sync_dci_remote.s: sync_dci_remote.c.s
+sync_dci_remote.s: sync_dci_remote.cc.s
 .PHONY : sync_dci_remote.s
 
 # target to generate assembly for a file
-sync_dci_remote.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.s
-.PHONY : sync_dci_remote.c.s
+sync_dci_remote.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.s
+.PHONY : sync_dci_remote.cc.s
 
-task_scheduler.o: task_scheduler.c.o
+task_scheduler.o: task_scheduler.cc.o
 .PHONY : task_scheduler.o
 
 # target to build an object file
-task_scheduler.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.c.o
-.PHONY : task_scheduler.c.o
+task_scheduler.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.cc.o
+.PHONY : task_scheduler.cc.o
 
-task_scheduler.i: task_scheduler.c.i
+task_scheduler.i: task_scheduler.cc.i
 .PHONY : task_scheduler.i
 
 # target to preprocess a source file
-task_scheduler.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.c.i
-.PHONY : task_scheduler.c.i
+task_scheduler.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.cc.i
+.PHONY : task_scheduler.cc.i
 
-task_scheduler.s: task_scheduler.c.s
+task_scheduler.s: task_scheduler.cc.s
 .PHONY : task_scheduler.s
 
 # target to generate assembly for a file
-task_scheduler.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.c.s
-.PHONY : task_scheduler.c.s
+task_scheduler.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.cc.s
+.PHONY : task_scheduler.cc.s
 
-task_sf_ring_buffer.o: task_sf_ring_buffer.c.o
+task_sf_ring_buffer.o: task_sf_ring_buffer.cc.o
 .PHONY : task_sf_ring_buffer.o
 
 # target to build an object file
-task_sf_ring_buffer.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.o
-.PHONY : task_sf_ring_buffer.c.o
+task_sf_ring_buffer.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.o
+.PHONY : task_sf_ring_buffer.cc.o
 
-task_sf_ring_buffer.i: task_sf_ring_buffer.c.i
+task_sf_ring_buffer.i: task_sf_ring_buffer.cc.i
 .PHONY : task_sf_ring_buffer.i
 
 # target to preprocess a source file
-task_sf_ring_buffer.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.i
-.PHONY : task_sf_ring_buffer.c.i
+task_sf_ring_buffer.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.i
+.PHONY : task_sf_ring_buffer.cc.i
 
-task_sf_ring_buffer.s: task_sf_ring_buffer.c.s
+task_sf_ring_buffer.s: task_sf_ring_buffer.cc.s
 .PHONY : task_sf_ring_buffer.s
 
 # target to generate assembly for a file
-task_sf_ring_buffer.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.s
-.PHONY : task_sf_ring_buffer.c.s
+task_sf_ring_buffer.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.s
+.PHONY : task_sf_ring_buffer.cc.s
 
-thread_exit.o: thread_exit.c.o
+thread_exit.o: thread_exit.cc.o
 .PHONY : thread_exit.o
 
 # target to build an object file
-thread_exit.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.c.o
-.PHONY : thread_exit.c.o
+thread_exit.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.cc.o
+.PHONY : thread_exit.cc.o
 
-thread_exit.i: thread_exit.c.i
+thread_exit.i: thread_exit.cc.i
 .PHONY : thread_exit.i
 
 # target to preprocess a source file
-thread_exit.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.c.i
-.PHONY : thread_exit.c.i
+thread_exit.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.cc.i
+.PHONY : thread_exit.cc.i
 
-thread_exit.s: thread_exit.c.s
+thread_exit.s: thread_exit.cc.s
 .PHONY : thread_exit.s
 
 # target to generate assembly for a file
-thread_exit.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.c.s
-.PHONY : thread_exit.c.s
+thread_exit.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.cc.s
+.PHONY : thread_exit.cc.s
 
-time_stamp.o: time_stamp.c.o
+time_stamp.o: time_stamp.cc.o
 .PHONY : time_stamp.o
 
 # target to build an object file
-time_stamp.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.c.o
-.PHONY : time_stamp.c.o
+time_stamp.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.cc.o
+.PHONY : time_stamp.cc.o
 
-time_stamp.i: time_stamp.c.i
+time_stamp.i: time_stamp.cc.i
 .PHONY : time_stamp.i
 
 # target to preprocess a source file
-time_stamp.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.c.i
-.PHONY : time_stamp.c.i
+time_stamp.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.cc.i
+.PHONY : time_stamp.cc.i
 
-time_stamp.s: time_stamp.c.s
+time_stamp.s: time_stamp.cc.s
 .PHONY : time_stamp.s
 
 # target to generate assembly for a file
-time_stamp.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.c.s
-.PHONY : time_stamp.c.s
+time_stamp.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.cc.s
+.PHONY : time_stamp.cc.s
 
-ue_list.o: ue_list.c.o
+ue_list.o: ue_list.cc.o
 .PHONY : ue_list.o
 
 # target to build an object file
-ue_list.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.c.o
-.PHONY : ue_list.c.o
+ue_list.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.cc.o
+.PHONY : ue_list.cc.o
 
-ue_list.i: ue_list.c.i
+ue_list.i: ue_list.cc.i
 .PHONY : ue_list.i
 
 # target to preprocess a source file
-ue_list.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.c.i
-.PHONY : ue_list.c.i
+ue_list.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.cc.i
+.PHONY : ue_list.cc.i
 
-ue_list.s: ue_list.c.s
+ue_list.s: ue_list.cc.s
 .PHONY : ue_list.s
 
 # target to generate assembly for a file
-ue_list.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.c.s
-.PHONY : ue_list.c.s
+ue_list.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.cc.s
+.PHONY : ue_list.cc.s
 
-ue_tracker.o: ue_tracker.c.o
+ue_tracker.o: ue_tracker.cc.o
 .PHONY : ue_tracker.o
 
 # target to build an object file
-ue_tracker.c.o:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.c.o
-.PHONY : ue_tracker.c.o
+ue_tracker.cc.o:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.cc.o
+.PHONY : ue_tracker.cc.o
 
-ue_tracker.i: ue_tracker.c.i
+ue_tracker.i: ue_tracker.cc.i
 .PHONY : ue_tracker.i
 
 # target to preprocess a source file
-ue_tracker.c.i:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.c.i
-.PHONY : ue_tracker.c.i
+ue_tracker.cc.i:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.cc.i
+.PHONY : ue_tracker.cc.i
 
-ue_tracker.s: ue_tracker.c.s
+ue_tracker.s: ue_tracker.cc.s
 .PHONY : ue_tracker.s
 
 # target to generate assembly for a file
-ue_tracker.c.s:
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.c.s
-.PHONY : ue_tracker.c.s
+ue_tracker.cc.s:
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build && $(MAKE) $(MAKESILENT) -f ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.cc.s
+.PHONY : ue_tracker.cc.s
 
 # Help Target
 help:

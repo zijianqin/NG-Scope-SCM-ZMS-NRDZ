@@ -15,13 +15,12 @@
 #include <stdint.h>
 #include "ngscope/hdr/dciLib/asn_decoder.h"
 
+#include "radio.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-
-#include "radio.h"
 
 typedef struct{
     srsran_ue_dl_t     ue_dl;
@@ -55,6 +54,8 @@ int dci_decoder_decode(ngscope_dci_decoder_t*       dci_decoder,
                             ngscope_dci_per_sub_t*  dci_per_sub);
 
 void* dci_decoder_thread(void* p);
+
+
 #ifdef __cplusplus
 }
 #endif

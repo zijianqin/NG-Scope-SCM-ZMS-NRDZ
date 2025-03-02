@@ -15,12 +15,12 @@
 #include <stdint.h>
 #include <sys/socket.h>
 
+#include "srsran/srsran.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-#include "srsran/srsran.h"
 
 /* Timestamp related function */
 int64_t timestamp_ns();

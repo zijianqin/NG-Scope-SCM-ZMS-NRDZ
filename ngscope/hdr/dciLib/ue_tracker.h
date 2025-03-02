@@ -14,13 +14,14 @@
 #include <unistd.h>
 #include <stdint.h>
 
+#include "srsran/srsran.h"
+#include "ngscope_def.h"
+#include "ngscope_util.h"
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-#include "srsran/srsran.h"
-#include "ngscope_def.h"
-#include "ngscope_util.h"
 
 // we record the top N most frequently observed UE
 #define TOPN 10

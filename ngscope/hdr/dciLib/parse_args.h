@@ -16,6 +16,10 @@
 
 #include "ngscope_def.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #define SIB_LOGS_PATH_MAX_LEN 1024
 
 typedef struct {
@@ -71,4 +75,9 @@ typedef struct {
 
 void args_default(prog_args_t* args);
 void usage(prog_args_t* args, char* prog);
+
+#ifdef __cplusplus
+}
+#endif
+
 #endif

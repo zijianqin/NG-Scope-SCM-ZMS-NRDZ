@@ -606,7 +606,7 @@ rrc_nr_asn1_LIB_DEPENDS:STATIC=general;asn1_utils;general;srsran_common;
 s1ap_asn1_LIB_DEPENDS:STATIC=general;asn1_utils;general;srsran_common;
 
 //Dependencies for the target
-srsran_common_LIB_DEPENDS:STATIC=general;srsran_phy;general;support;general;srslog;general;/usr/lib/x86_64-linux-gnu/libmbedcrypto.so;
+srsran_common_LIB_DEPENDS:STATIC=general;srsran_phy;general;support;general;srslog;general;/usr/lib/x86_64-linux-gnu/libmbedcrypto.so;general;/usr/lib/x86_64-linux-gnu/libsctp.so;
 
 //Dependencies for the target
 srsran_gtpu_LIB_DEPENDS:STATIC=general;srsran_common;general;srsran_asn1;

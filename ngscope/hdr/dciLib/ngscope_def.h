@@ -14,11 +14,12 @@
 #include <unistd.h>
 #include <stdint.h>
 
+#include "srsran/srsran.h"
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-#include "srsran/srsran.h"
 
 #define MAX_NOF_DCI_DECODER 6
 #define MAX_NOF_RF_DEV 4
@@ -65,4 +66,5 @@ typedef struct {
 #ifdef __cplusplus
 }
 #endif
+
 #endif

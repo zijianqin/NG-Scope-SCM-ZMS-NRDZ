@@ -83,173 +83,173 @@ ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/asn_decoder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/asn_decoder.c.s"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/asn_decoder.c -o CMakeFiles/ngscope_dci.dir/asn_decoder.c.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.c.o: ../ngscope/src/dciLib/cell_status.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.c.o -MF CMakeFiles/ngscope_dci.dir/cell_status.c.o.d -o CMakeFiles/ngscope_dci.dir/cell_status.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/cell_status.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.cc.o: ../ngscope/src/dciLib/cell_status.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.cc.o -MF CMakeFiles/ngscope_dci.dir/cell_status.cc.o.d -o CMakeFiles/ngscope_dci.dir/cell_status.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/cell_status.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/cell_status.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/cell_status.c > CMakeFiles/ngscope_dci.dir/cell_status.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/cell_status.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/cell_status.cc > CMakeFiles/ngscope_dci.dir/cell_status.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/cell_status.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/cell_status.c -o CMakeFiles/ngscope_dci.dir/cell_status.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/cell_status.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/cell_status.cc -o CMakeFiles/ngscope_dci.dir/cell_status.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.c.o: ../ngscope/src/dciLib/dci_decoder.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.c.o -MF CMakeFiles/ngscope_dci.dir/dci_decoder.c.o.d -o CMakeFiles/ngscope_dci.dir/dci_decoder.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_decoder.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.cc.o: ../ngscope/src/dciLib/dci_decoder.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.cc.o -MF CMakeFiles/ngscope_dci.dir/dci_decoder.cc.o.d -o CMakeFiles/ngscope_dci.dir/dci_decoder.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_decoder.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/dci_decoder.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_decoder.c > CMakeFiles/ngscope_dci.dir/dci_decoder.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/dci_decoder.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_decoder.cc > CMakeFiles/ngscope_dci.dir/dci_decoder.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/dci_decoder.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_decoder.c -o CMakeFiles/ngscope_dci.dir/dci_decoder.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/dci_decoder.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_decoder.cc -o CMakeFiles/ngscope_dci.dir/dci_decoder.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.c.o: ../ngscope/src/dciLib/dci_log.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.c.o -MF CMakeFiles/ngscope_dci.dir/dci_log.c.o.d -o CMakeFiles/ngscope_dci.dir/dci_log.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_log.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.cc.o: ../ngscope/src/dciLib/dci_log.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.cc.o -MF CMakeFiles/ngscope_dci.dir/dci_log.cc.o.d -o CMakeFiles/ngscope_dci.dir/dci_log.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_log.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/dci_log.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_log.c > CMakeFiles/ngscope_dci.dir/dci_log.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/dci_log.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_log.cc > CMakeFiles/ngscope_dci.dir/dci_log.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/dci_log.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_log.c -o CMakeFiles/ngscope_dci.dir/dci_log.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/dci_log.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_log.cc -o CMakeFiles/ngscope_dci.dir/dci_log.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.o: ../ngscope/src/dciLib/dci_ring_buffer.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.o -MF CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.o.d -o CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_ring_buffer.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.o: ../ngscope/src/dciLib/dci_ring_buffer.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.o -MF CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.o.d -o CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_ring_buffer.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_ring_buffer.c > CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_ring_buffer.cc > CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_ring_buffer.c -o CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_ring_buffer.cc -o CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.c.o: ../ngscope/src/dciLib/dci_sink_client.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.c.o -MF CMakeFiles/ngscope_dci.dir/dci_sink_client.c.o.d -o CMakeFiles/ngscope_dci.dir/dci_sink_client.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_client.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.o: ../ngscope/src/dciLib/dci_sink_client.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.o -MF CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.o.d -o CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_client.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/dci_sink_client.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_client.c > CMakeFiles/ngscope_dci.dir/dci_sink_client.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_client.cc > CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/dci_sink_client.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_client.c -o CMakeFiles/ngscope_dci.dir/dci_sink_client.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_client.cc -o CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.o: ../ngscope/src/dciLib/dci_sink_recv_dci.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.o -MF CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.o.d -o CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_recv_dci.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.o: ../ngscope/src/dciLib/dci_sink_recv_dci.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.o -MF CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.o.d -o CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_recv_dci.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_recv_dci.c > CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_recv_dci.cc > CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_recv_dci.c -o CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_recv_dci.cc -o CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.o: ../ngscope/src/dciLib/dci_sink_ring_buffer.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.o -MF CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.o.d -o CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_ring_buffer.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.o: ../ngscope/src/dciLib/dci_sink_ring_buffer.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.o -MF CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.o.d -o CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_ring_buffer.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_ring_buffer.c > CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_ring_buffer.cc > CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_ring_buffer.c -o CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_ring_buffer.cc -o CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.o: ../ngscope/src/dciLib/dci_sink_send_dci.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.o -MF CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.o.d -o CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_send_dci.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.o: ../ngscope/src/dciLib/dci_sink_send_dci.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.o -MF CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.o.d -o CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_send_dci.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_send_dci.c > CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_send_dci.cc > CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_send_dci.c -o CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_send_dci.cc -o CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.o: ../ngscope/src/dciLib/dci_sink_serv.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.o -MF CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.o.d -o CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_serv.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.o: ../ngscope/src/dciLib/dci_sink_serv.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.o -MF CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.o.d -o CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_serv.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_serv.c > CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_serv.cc > CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_serv.c -o CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_serv.cc -o CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.o: ../ngscope/src/dciLib/dci_sink_sock.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.o -MF CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.o.d -o CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_sock.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.o: ../ngscope/src/dciLib/dci_sink_sock.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.o -MF CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.o.d -o CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_sock.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_sock.c > CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_sock.cc > CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_sock.c -o CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/dci_sink_sock.cc -o CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cpp.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cpp.o: ../ngscope/src/dciLib/decode_sib.cpp
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cpp.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cpp.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cpp.o -MF CMakeFiles/ngscope_dci.dir/decode_sib.cpp.o.d -o CMakeFiles/ngscope_dci.dir/decode_sib.cpp.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/decode_sib.cpp
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cc.o: ../ngscope/src/dciLib/decode_sib.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cc.o -MF CMakeFiles/ngscope_dci.dir/decode_sib.cc.o.d -o CMakeFiles/ngscope_dci.dir/decode_sib.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/decode_sib.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/decode_sib.cpp.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/decode_sib.cpp > CMakeFiles/ngscope_dci.dir/decode_sib.cpp.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/decode_sib.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/decode_sib.cc > CMakeFiles/ngscope_dci.dir/decode_sib.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/decode_sib.cpp.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/decode_sib.cpp -o CMakeFiles/ngscope_dci.dir/decode_sib.cpp.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/decode_sib.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/decode_sib.cc -o CMakeFiles/ngscope_dci.dir/decode_sib.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.c.o: ../ngscope/src/dciLib/load_config.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.c.o -MF CMakeFiles/ngscope_dci.dir/load_config.c.o.d -o CMakeFiles/ngscope_dci.dir/load_config.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/load_config.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.cc.o: ../ngscope/src/dciLib/load_config.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.cc.o -MF CMakeFiles/ngscope_dci.dir/load_config.cc.o.d -o CMakeFiles/ngscope_dci.dir/load_config.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/load_config.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/load_config.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/load_config.c > CMakeFiles/ngscope_dci.dir/load_config.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/load_config.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/load_config.cc > CMakeFiles/ngscope_dci.dir/load_config.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/load_config.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/load_config.c -o CMakeFiles/ngscope_dci.dir/load_config.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/load_config.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/load_config.cc -o CMakeFiles/ngscope_dci.dir/load_config.cc.s
 
 ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_main.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
 ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_main.c.o: ../ngscope/src/dciLib/ngscope_main.c
@@ -265,61 +265,61 @@ ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/ngscope_main.c.s"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ngscope_main.c -o CMakeFiles/ngscope_dci.dir/ngscope_main.c.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.c.o: ../ngscope/src/dciLib/ngscope_util.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.c.o -MF CMakeFiles/ngscope_dci.dir/ngscope_util.c.o.d -o CMakeFiles/ngscope_dci.dir/ngscope_util.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ngscope_util.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.cc.o: ../ngscope/src/dciLib/ngscope_util.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.cc.o -MF CMakeFiles/ngscope_dci.dir/ngscope_util.cc.o.d -o CMakeFiles/ngscope_dci.dir/ngscope_util.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ngscope_util.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/ngscope_util.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ngscope_util.c > CMakeFiles/ngscope_dci.dir/ngscope_util.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/ngscope_util.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ngscope_util.cc > CMakeFiles/ngscope_dci.dir/ngscope_util.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/ngscope_util.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ngscope_util.c -o CMakeFiles/ngscope_dci.dir/ngscope_util.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/ngscope_util.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ngscope_util.cc -o CMakeFiles/ngscope_dci.dir/ngscope_util.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.c.o: ../ngscope/src/dciLib/parse_args.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.c.o -MF CMakeFiles/ngscope_dci.dir/parse_args.c.o.d -o CMakeFiles/ngscope_dci.dir/parse_args.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/parse_args.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.cc.o: ../ngscope/src/dciLib/parse_args.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.cc.o -MF CMakeFiles/ngscope_dci.dir/parse_args.cc.o.d -o CMakeFiles/ngscope_dci.dir/parse_args.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/parse_args.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/parse_args.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/parse_args.c > CMakeFiles/ngscope_dci.dir/parse_args.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/parse_args.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/parse_args.cc > CMakeFiles/ngscope_dci.dir/parse_args.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/parse_args.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/parse_args.c -o CMakeFiles/ngscope_dci.dir/parse_args.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/parse_args.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/parse_args.cc -o CMakeFiles/ngscope_dci.dir/parse_args.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.c.o: ../ngscope/src/dciLib/phich_decoder.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.c.o -MF CMakeFiles/ngscope_dci.dir/phich_decoder.c.o.d -o CMakeFiles/ngscope_dci.dir/phich_decoder.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/phich_decoder.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.cc.o: ../ngscope/src/dciLib/phich_decoder.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.cc.o -MF CMakeFiles/ngscope_dci.dir/phich_decoder.cc.o.d -o CMakeFiles/ngscope_dci.dir/phich_decoder.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/phich_decoder.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/phich_decoder.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/phich_decoder.c > CMakeFiles/ngscope_dci.dir/phich_decoder.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/phich_decoder.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/phich_decoder.cc > CMakeFiles/ngscope_dci.dir/phich_decoder.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/phich_decoder.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/phich_decoder.c -o CMakeFiles/ngscope_dci.dir/phich_decoder.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/phich_decoder.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/phich_decoder.cc -o CMakeFiles/ngscope_dci.dir/phich_decoder.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.c.o: ../ngscope/src/dciLib/radio.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.c.o -MF CMakeFiles/ngscope_dci.dir/radio.c.o.d -o CMakeFiles/ngscope_dci.dir/radio.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/radio.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.cc.o: ../ngscope/src/dciLib/radio.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.cc.o -MF CMakeFiles/ngscope_dci.dir/radio.cc.o.d -o CMakeFiles/ngscope_dci.dir/radio.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/radio.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/radio.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/radio.c > CMakeFiles/ngscope_dci.dir/radio.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/radio.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/radio.cc > CMakeFiles/ngscope_dci.dir/radio.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/radio.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/radio.c -o CMakeFiles/ngscope_dci.dir/radio.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/radio.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/radio.cc -o CMakeFiles/ngscope_dci.dir/radio.cc.s
 
 ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sib1_helper.cpp.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
 ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sib1_helper.cpp.o: ../ngscope/src/dciLib/sib1_helper.cpp
@@ -335,226 +335,226 @@ ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sib1_helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/sib1_helper.cpp.s"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/sib1_helper.cpp -o CMakeFiles/ngscope_dci.dir/sib1_helper.cpp.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.c.o: ../ngscope/src/dciLib/skip_tti.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.c.o -MF CMakeFiles/ngscope_dci.dir/skip_tti.c.o.d -o CMakeFiles/ngscope_dci.dir/skip_tti.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/skip_tti.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.cc.o: ../ngscope/src/dciLib/skip_tti.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.cc.o -MF CMakeFiles/ngscope_dci.dir/skip_tti.cc.o.d -o CMakeFiles/ngscope_dci.dir/skip_tti.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/skip_tti.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/skip_tti.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/skip_tti.c > CMakeFiles/ngscope_dci.dir/skip_tti.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/skip_tti.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/skip_tti.cc > CMakeFiles/ngscope_dci.dir/skip_tti.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/skip_tti.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/skip_tti.c -o CMakeFiles/ngscope_dci.dir/skip_tti.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/skip_tti.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/skip_tti.cc -o CMakeFiles/ngscope_dci.dir/skip_tti.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.c.o: ../ngscope/src/dciLib/socket.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.c.o -MF CMakeFiles/ngscope_dci.dir/socket.c.o.d -o CMakeFiles/ngscope_dci.dir/socket.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/socket.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.cc.o: ../ngscope/src/dciLib/socket.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.cc.o -MF CMakeFiles/ngscope_dci.dir/socket.cc.o.d -o CMakeFiles/ngscope_dci.dir/socket.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/socket.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/socket.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/socket.c > CMakeFiles/ngscope_dci.dir/socket.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/socket.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/socket.cc > CMakeFiles/ngscope_dci.dir/socket.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/socket.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/socket.c -o CMakeFiles/ngscope_dci.dir/socket.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/socket.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/socket.cc -o CMakeFiles/ngscope_dci.dir/socket.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.c.o: ../ngscope/src/dciLib/status_plot.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.c.o -MF CMakeFiles/ngscope_dci.dir/status_plot.c.o.d -o CMakeFiles/ngscope_dci.dir/status_plot.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/status_plot.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.cc.o: ../ngscope/src/dciLib/status_plot.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.cc.o -MF CMakeFiles/ngscope_dci.dir/status_plot.cc.o.d -o CMakeFiles/ngscope_dci.dir/status_plot.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/status_plot.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/status_plot.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/status_plot.c > CMakeFiles/ngscope_dci.dir/status_plot.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/status_plot.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/status_plot.cc > CMakeFiles/ngscope_dci.dir/status_plot.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/status_plot.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/status_plot.c -o CMakeFiles/ngscope_dci.dir/status_plot.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/status_plot.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/status_plot.cc -o CMakeFiles/ngscope_dci.dir/status_plot.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.c.o: ../ngscope/src/dciLib/status_tracker.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.c.o -MF CMakeFiles/ngscope_dci.dir/status_tracker.c.o.d -o CMakeFiles/ngscope_dci.dir/status_tracker.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/status_tracker.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.cc.o: ../ngscope/src/dciLib/status_tracker.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.cc.o -MF CMakeFiles/ngscope_dci.dir/status_tracker.cc.o.d -o CMakeFiles/ngscope_dci.dir/status_tracker.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/status_tracker.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/status_tracker.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/status_tracker.c > CMakeFiles/ngscope_dci.dir/status_tracker.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/status_tracker.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/status_tracker.cc > CMakeFiles/ngscope_dci.dir/status_tracker.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/status_tracker.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/status_tracker.c -o CMakeFiles/ngscope_dci.dir/status_tracker.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/status_tracker.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/status_tracker.cc -o CMakeFiles/ngscope_dci.dir/status_tracker.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.o: ../ngscope/src/dciLib/sync_dci_remote.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.o -MF CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.o.d -o CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/sync_dci_remote.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.o: ../ngscope/src/dciLib/sync_dci_remote.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.o -MF CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.o.d -o CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/sync_dci_remote.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/sync_dci_remote.c > CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/sync_dci_remote.cc > CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/sync_dci_remote.c -o CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/sync_dci_remote.cc -o CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.c.o: ../ngscope/src/dciLib/task_scheduler.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.c.o -MF CMakeFiles/ngscope_dci.dir/task_scheduler.c.o.d -o CMakeFiles/ngscope_dci.dir/task_scheduler.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/task_scheduler.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.cc.o: ../ngscope/src/dciLib/task_scheduler.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.cc.o -MF CMakeFiles/ngscope_dci.dir/task_scheduler.cc.o.d -o CMakeFiles/ngscope_dci.dir/task_scheduler.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/task_scheduler.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/task_scheduler.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/task_scheduler.c > CMakeFiles/ngscope_dci.dir/task_scheduler.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/task_scheduler.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/task_scheduler.cc > CMakeFiles/ngscope_dci.dir/task_scheduler.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/task_scheduler.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/task_scheduler.c -o CMakeFiles/ngscope_dci.dir/task_scheduler.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/task_scheduler.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/task_scheduler.cc -o CMakeFiles/ngscope_dci.dir/task_scheduler.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.o: ../ngscope/src/dciLib/task_sf_ring_buffer.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.o -MF CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.o.d -o CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/task_sf_ring_buffer.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.o: ../ngscope/src/dciLib/task_sf_ring_buffer.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.o -MF CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.o.d -o CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/task_sf_ring_buffer.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/task_sf_ring_buffer.c > CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/task_sf_ring_buffer.cc > CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/task_sf_ring_buffer.c -o CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/task_sf_ring_buffer.cc -o CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.c.o: ../ngscope/src/dciLib/thread_exit.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.c.o -MF CMakeFiles/ngscope_dci.dir/thread_exit.c.o.d -o CMakeFiles/ngscope_dci.dir/thread_exit.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/thread_exit.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.cc.o: ../ngscope/src/dciLib/thread_exit.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.cc.o -MF CMakeFiles/ngscope_dci.dir/thread_exit.cc.o.d -o CMakeFiles/ngscope_dci.dir/thread_exit.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/thread_exit.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/thread_exit.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/thread_exit.c > CMakeFiles/ngscope_dci.dir/thread_exit.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/thread_exit.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/thread_exit.cc > CMakeFiles/ngscope_dci.dir/thread_exit.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/thread_exit.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/thread_exit.c -o CMakeFiles/ngscope_dci.dir/thread_exit.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/thread_exit.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/thread_exit.cc -o CMakeFiles/ngscope_dci.dir/thread_exit.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.c.o: ../ngscope/src/dciLib/time_stamp.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.c.o -MF CMakeFiles/ngscope_dci.dir/time_stamp.c.o.d -o CMakeFiles/ngscope_dci.dir/time_stamp.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/time_stamp.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.cc.o: ../ngscope/src/dciLib/time_stamp.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.cc.o -MF CMakeFiles/ngscope_dci.dir/time_stamp.cc.o.d -o CMakeFiles/ngscope_dci.dir/time_stamp.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/time_stamp.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/time_stamp.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/time_stamp.c > CMakeFiles/ngscope_dci.dir/time_stamp.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/time_stamp.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/time_stamp.cc > CMakeFiles/ngscope_dci.dir/time_stamp.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/time_stamp.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/time_stamp.c -o CMakeFiles/ngscope_dci.dir/time_stamp.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/time_stamp.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/time_stamp.cc -o CMakeFiles/ngscope_dci.dir/time_stamp.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.c.o: ../ngscope/src/dciLib/ue_list.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.c.o -MF CMakeFiles/ngscope_dci.dir/ue_list.c.o.d -o CMakeFiles/ngscope_dci.dir/ue_list.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ue_list.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.cc.o: ../ngscope/src/dciLib/ue_list.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.cc.o -MF CMakeFiles/ngscope_dci.dir/ue_list.cc.o.d -o CMakeFiles/ngscope_dci.dir/ue_list.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ue_list.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/ue_list.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ue_list.c > CMakeFiles/ngscope_dci.dir/ue_list.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/ue_list.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ue_list.cc > CMakeFiles/ngscope_dci.dir/ue_list.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/ue_list.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ue_list.c -o CMakeFiles/ngscope_dci.dir/ue_list.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/ue_list.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ue_list.cc -o CMakeFiles/ngscope_dci.dir/ue_list.cc.s
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.c.o: ../ngscope/src/dciLib/ue_tracker.c
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.c.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.c.o -MF CMakeFiles/ngscope_dci.dir/ue_tracker.c.o.d -o CMakeFiles/ngscope_dci.dir/ue_tracker.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ue_tracker.c
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/flags.make
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.cc.o: ../ngscope/src/dciLib/ue_tracker.cc
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.cc.o: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.cc.o -MF CMakeFiles/ngscope_dci.dir/ue_tracker.cc.o.d -o CMakeFiles/ngscope_dci.dir/ue_tracker.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ue_tracker.cc
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope_dci.dir/ue_tracker.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ue_tracker.c > CMakeFiles/ngscope_dci.dir/ue_tracker.c.i
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope_dci.dir/ue_tracker.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ue_tracker.cc > CMakeFiles/ngscope_dci.dir/ue_tracker.cc.i
 
-ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope_dci.dir/ue_tracker.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ue_tracker.c -o CMakeFiles/ngscope_dci.dir/ue_tracker.c.s
+ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope_dci.dir/ue_tracker.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src/dciLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/dciLib/ue_tracker.cc -o CMakeFiles/ngscope_dci.dir/ue_tracker.cc.s
 
 # Object files for target ngscope_dci
 ngscope_dci_OBJECTS = \
 "CMakeFiles/ngscope_dci.dir/asn_decoder.c.o" \
-"CMakeFiles/ngscope_dci.dir/cell_status.c.o" \
-"CMakeFiles/ngscope_dci.dir/dci_decoder.c.o" \
-"CMakeFiles/ngscope_dci.dir/dci_log.c.o" \
-"CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.o" \
-"CMakeFiles/ngscope_dci.dir/dci_sink_client.c.o" \
-"CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.o" \
-"CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.o" \
-"CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.o" \
-"CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.o" \
-"CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.o" \
-"CMakeFiles/ngscope_dci.dir/decode_sib.cpp.o" \
-"CMakeFiles/ngscope_dci.dir/load_config.c.o" \
+"CMakeFiles/ngscope_dci.dir/cell_status.cc.o" \
+"CMakeFiles/ngscope_dci.dir/dci_decoder.cc.o" \
+"CMakeFiles/ngscope_dci.dir/dci_log.cc.o" \
+"CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.o" \
+"CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.o" \
+"CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.o" \
+"CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.o" \
+"CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.o" \
+"CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.o" \
+"CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.o" \
+"CMakeFiles/ngscope_dci.dir/decode_sib.cc.o" \
+"CMakeFiles/ngscope_dci.dir/load_config.cc.o" \
 "CMakeFiles/ngscope_dci.dir/ngscope_main.c.o" \
-"CMakeFiles/ngscope_dci.dir/ngscope_util.c.o" \
-"CMakeFiles/ngscope_dci.dir/parse_args.c.o" \
-"CMakeFiles/ngscope_dci.dir/phich_decoder.c.o" \
-"CMakeFiles/ngscope_dci.dir/radio.c.o" \
+"CMakeFiles/ngscope_dci.dir/ngscope_util.cc.o" \
+"CMakeFiles/ngscope_dci.dir/parse_args.cc.o" \
+"CMakeFiles/ngscope_dci.dir/phich_decoder.cc.o" \
+"CMakeFiles/ngscope_dci.dir/radio.cc.o" \
 "CMakeFiles/ngscope_dci.dir/sib1_helper.cpp.o" \
-"CMakeFiles/ngscope_dci.dir/skip_tti.c.o" \
-"CMakeFiles/ngscope_dci.dir/socket.c.o" \
-"CMakeFiles/ngscope_dci.dir/status_plot.c.o" \
-"CMakeFiles/ngscope_dci.dir/status_tracker.c.o" \
-"CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.o" \
-"CMakeFiles/ngscope_dci.dir/task_scheduler.c.o" \
-"CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.o" \
-"CMakeFiles/ngscope_dci.dir/thread_exit.c.o" \
-"CMakeFiles/ngscope_dci.dir/time_stamp.c.o" \
-"CMakeFiles/ngscope_dci.dir/ue_list.c.o" \
-"CMakeFiles/ngscope_dci.dir/ue_tracker.c.o"
+"CMakeFiles/ngscope_dci.dir/skip_tti.cc.o" \
+"CMakeFiles/ngscope_dci.dir/socket.cc.o" \
+"CMakeFiles/ngscope_dci.dir/status_plot.cc.o" \
+"CMakeFiles/ngscope_dci.dir/status_tracker.cc.o" \
+"CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.o" \
+"CMakeFiles/ngscope_dci.dir/task_scheduler.cc.o" \
+"CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.o" \
+"CMakeFiles/ngscope_dci.dir/thread_exit.cc.o" \
+"CMakeFiles/ngscope_dci.dir/time_stamp.cc.o" \
+"CMakeFiles/ngscope_dci.dir/ue_list.cc.o" \
+"CMakeFiles/ngscope_dci.dir/ue_tracker.cc.o"
 
 # External object files for target ngscope_dci
 ngscope_dci_EXTERNAL_OBJECTS =
 
 ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/asn_decoder.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cpp.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.c.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/cell_status.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_decoder.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_log.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_ring_buffer.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_client.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_recv_dci.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_ring_buffer.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_send_dci.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_serv.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/dci_sink_sock.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/decode_sib.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/load_config.cc.o
 ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_main.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.c.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ngscope_util.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/parse_args.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/phich_decoder.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/radio.cc.o
 ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sib1_helper.cpp.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.c.o
-ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.c.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/skip_tti.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/socket.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_plot.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/status_tracker.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/sync_dci_remote.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_scheduler.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/task_sf_ring_buffer.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/thread_exit.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/time_stamp.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_list.cc.o
+ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/ue_tracker.cc.o
 ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/build.make
 ngscope/src/dciLib/libngscope_dci.a: ngscope/src/dciLib/CMakeFiles/ngscope_dci.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX static library libngscope_dci.a"

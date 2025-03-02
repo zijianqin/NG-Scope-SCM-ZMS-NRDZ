@@ -24,6 +24,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+
 typedef struct{
     int         		cell_prb[MAX_NOF_RF_DEV];
 	ngscope_config_t 	config;
@@ -66,4 +67,5 @@ void* dci_log_thread(void* p);
 #ifdef __cplusplus
 }
 #endif
+
 #endif

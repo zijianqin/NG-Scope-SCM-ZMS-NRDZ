@@ -25,6 +25,10 @@
 #include "srsran/phy/rf/rf.h"
 #include "srsran/srsran.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef struct SRSRAN_API {
   uint32_t max_frames_pbch;      // timeout in number of 5ms frames for MIB decoding
   uint32_t max_frames_pss;       // timeout in number of 5ms frames for synchronization
@@ -53,5 +57,9 @@ SRSRAN_API int rf_search_and_decode_mib(srsran_rf_t*       rf,
                                         float*             cfo);
 
 SRSRAN_API int rf_cell_search_nbiot(srsran_rf_t* rf, cell_search_cfg_t* config, srsran_nbiot_cell_t* cell, float* cfo);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // SRSRAN_RF_UTILS_H

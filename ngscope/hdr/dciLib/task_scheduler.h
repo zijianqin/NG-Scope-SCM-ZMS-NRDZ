@@ -14,12 +14,14 @@
 #include <unistd.h>
 #include <stdint.h>
 
+#include "ngscope_def.h"
+#include "radio.h"
+
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-#include "ngscope_def.h"
-#include "radio.h"
 
 #define MAX_TMP_BUFFER 15
 

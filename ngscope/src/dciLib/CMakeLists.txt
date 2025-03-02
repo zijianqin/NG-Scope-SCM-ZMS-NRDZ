@@ -1,4 +1,4 @@
-file(GLOB_RECURSE SOURCES "*.cpp" "*.c")
+file(GLOB_RECURSE SOURCES "*.cpp" "*.c" "*.cc")
 #file(GLOB_RECURSE SOURCES "*.c")
 
 add_library(ngscope_dci STATIC ${SOURCES})

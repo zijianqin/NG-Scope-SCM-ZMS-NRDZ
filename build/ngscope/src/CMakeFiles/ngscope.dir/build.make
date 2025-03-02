@@ -69,28 +69,28 @@ include ngscope/src/CMakeFiles/ngscope.dir/progress.make
 # Include the compile flags for this target's objects.
 include ngscope/src/CMakeFiles/ngscope.dir/flags.make
 
-ngscope/src/CMakeFiles/ngscope.dir/main.c.o: ngscope/src/CMakeFiles/ngscope.dir/flags.make
-ngscope/src/CMakeFiles/ngscope.dir/main.c.o: ../ngscope/src/main.c
-ngscope/src/CMakeFiles/ngscope.dir/main.c.o: ngscope/src/CMakeFiles/ngscope.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object ngscope/src/CMakeFiles/ngscope.dir/main.c.o"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ngscope/src/CMakeFiles/ngscope.dir/main.c.o -MF CMakeFiles/ngscope.dir/main.c.o.d -o CMakeFiles/ngscope.dir/main.c.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/main.c
+ngscope/src/CMakeFiles/ngscope.dir/main.cc.o: ngscope/src/CMakeFiles/ngscope.dir/flags.make
+ngscope/src/CMakeFiles/ngscope.dir/main.cc.o: ../ngscope/src/main.cc
+ngscope/src/CMakeFiles/ngscope.dir/main.cc.o: ngscope/src/CMakeFiles/ngscope.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ngscope/src/CMakeFiles/ngscope.dir/main.cc.o"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src && /usr/bin/ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ngscope/src/CMakeFiles/ngscope.dir/main.cc.o -MF CMakeFiles/ngscope.dir/main.cc.o.d -o CMakeFiles/ngscope.dir/main.cc.o -c /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/main.cc
 
-ngscope/src/CMakeFiles/ngscope.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ngscope.dir/main.c.i"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/main.c > CMakeFiles/ngscope.dir/main.c.i
+ngscope/src/CMakeFiles/ngscope.dir/main.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ngscope.dir/main.cc.i"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/main.cc > CMakeFiles/ngscope.dir/main.cc.i
 
-ngscope/src/CMakeFiles/ngscope.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ngscope.dir/main.c.s"
-	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/main.c -o CMakeFiles/ngscope.dir/main.c.s
+ngscope/src/CMakeFiles/ngscope.dir/main.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ngscope.dir/main.cc.s"
+	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/ngscope/src/main.cc -o CMakeFiles/ngscope.dir/main.cc.s
 
 # Object files for target ngscope
 ngscope_OBJECTS = \
-"CMakeFiles/ngscope.dir/main.c.o"
+"CMakeFiles/ngscope.dir/main.cc.o"
 
 # External object files for target ngscope
 ngscope_EXTERNAL_OBJECTS =
 
-ngscope/src/ngscope: ngscope/src/CMakeFiles/ngscope.dir/main.c.o
+ngscope/src/ngscope: ngscope/src/CMakeFiles/ngscope.dir/main.cc.o
 ngscope/src/ngscope: ngscope/src/CMakeFiles/ngscope.dir/build.make
 ngscope/src/ngscope: lib/src/common/libsrsran_common.a
 ngscope/src/ngscope: lib/src/mac/libsrsran_mac.a
@@ -119,6 +119,7 @@ ngscope/src/ngscope: /usr/lib/x86_64-linux-gnu/libfftw3f.so
 ngscope/src/ngscope: lib/src/srslog/libsrslog.a
 ngscope/src/ngscope: lib/src/support/libsupport.a
 ngscope/src/ngscope: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
+ngscope/src/ngscope: /usr/lib/x86_64-linux-gnu/libsctp.so
 ngscope/src/ngscope: ngscope/src/CMakeFiles/ngscope.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ngscope"
 	cd /home/zq5820/NG-Scope-SCM-ZMS-NRDZ/build/ngscope/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ngscope.dir/link.txt --verbose=$(VERBOSE)

@@ -14,13 +14,14 @@
 #include <unistd.h>
 #include <stdint.h>
 
+#include "srsran/srsran.h"
+#include "ngscope_def.h"
+#include "dci_decoder.h"
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-#include "srsran/srsran.h"
-#include "ngscope_def.h"
-#include "dci_decoder.h"
 
 typedef struct{
     float       csi_amp[100 * 12];
@@ -55,4 +56,5 @@ void  plot_init_pdcch_thread(pthread_t* plot_thread, decoder_plot_t* arg);
 #ifdef __cplusplus
 }
 #endif
+
 #endif

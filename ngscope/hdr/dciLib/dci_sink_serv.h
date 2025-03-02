@@ -15,6 +15,14 @@
 #include <stdint.h>
 #include <sys/socket.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 void* dci_sink_server_thread(void* p);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

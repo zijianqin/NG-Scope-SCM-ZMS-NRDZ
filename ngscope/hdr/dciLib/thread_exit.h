@@ -3,8 +3,18 @@
 #include <stdio.h>
 
 #include "ngscope_def.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 bool wait_for_ALL_RF_DEV_close();
 bool wait_for_scheduler_ready_to_close(int rf_idx);
 bool wait_for_decoder_ready_to_close(int  rf_idx, int  decoder_idx);
+
+#ifdef __cplusplus
+}
+#endif
+
 #endif
 

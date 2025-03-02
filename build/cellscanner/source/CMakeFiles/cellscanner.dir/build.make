@@ -119,6 +119,7 @@ cellscanner/source/cellscanner: lib/src/common/libsrsran_common.a
 cellscanner/source/cellscanner: lib/src/srslog/libsrslog.a
 cellscanner/source/cellscanner: lib/src/support/libsupport.a
 cellscanner/source/cellscanner: /usr/lib/x86_64-linux-gnu/libmbedcrypto.so
+cellscanner/source/cellscanner: /usr/lib/x86_64-linux-gnu/libsctp.so
 cellscanner/source/cellscanner: lib/src/phy/rf/libsrsran_rf.so.23.04.0
 cellscanner/source/cellscanner: lib/src/phy/rf/libsrsran_rf_utils.a
 cellscanner/source/cellscanner: lib/src/phy/libsrsran_phy.a

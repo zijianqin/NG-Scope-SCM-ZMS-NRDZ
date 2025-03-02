@@ -30,6 +30,10 @@
 #include "srsran/phy/ue/ue_mib_nbiot.h"
 #include "srsran/phy/ue/ue_sync_nbiot.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #define SRSRAN_CS_NOF_PRB 6
 #define SRSRAN_CS_SAMP_FREQ 1920000.0
 
@@ -77,5 +81,9 @@ SRSRAN_API int srsran_ue_cellsearch_nbiot_detect(srsran_ue_cellsearch_nbiot_t*  
                                                  srsran_nbiot_ue_cellsearch_result_t* found_cells);
 
 SRSRAN_API int srsran_ue_cellsearch_nbiot_set_nof_valid_frames(srsran_ue_cellsearch_nbiot_t* q, uint32_t nof_frames);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // SRSRAN_UE_CELL_SEARCH_NBIOT_H

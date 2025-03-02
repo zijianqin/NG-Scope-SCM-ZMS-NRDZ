@@ -18,6 +18,15 @@
 
 #include "dci_sink_ring_buffer.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 int ngscope_dci_sink_recv_buffer(ngscope_dci_sink_CA_t* q, char* recvBuf, int idx, int recvLen);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

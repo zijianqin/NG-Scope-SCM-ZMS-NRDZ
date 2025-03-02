@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ngscope.dir/main.c.o"
-  "CMakeFiles/ngscope.dir/main.c.o.d"
+  "CMakeFiles/ngscope.dir/main.cc.o"
+  "CMakeFiles/ngscope.dir/main.cc.o.d"
   "ngscope"
   "ngscope.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang C)
+foreach(lang CXX)
   include(CMakeFiles/ngscope.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

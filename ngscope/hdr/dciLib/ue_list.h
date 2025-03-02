@@ -14,12 +14,13 @@
 #include <unistd.h>
 #include <stdint.h>
 
+#include "srsran/srsran.h"
+#include "ngscope_def.h"
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-#include "srsran/srsran.h"
-#include "ngscope_def.h"
 
 typedef struct{
   // Yaxiong's Modification: RNTI list
@@ -44,4 +45,5 @@ int ngscope_ue_list_print_ue_freq(ngscope_ue_list_t* q);
 #ifdef __cplusplus
 }
 #endif
+
 #endif

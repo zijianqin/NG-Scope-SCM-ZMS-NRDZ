@@ -34,4 +34,5 @@ void* cell_status_thread(void* arg);
 #ifdef __cplusplus
 }
 #endif
+
 #endif

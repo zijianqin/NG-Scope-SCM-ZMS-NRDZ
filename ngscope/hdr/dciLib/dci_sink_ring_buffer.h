@@ -16,6 +16,10 @@
 
 #include "dci_sink_def.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 // the ring buffer that stores the dci of a single cell
 typedef struct {
   int cell_prb;
@@ -49,5 +53,9 @@ typedef struct {
 void ngscope_dciSink_ringBuf_init(ngscope_dci_sink_CA_t* q);
 int  ngscope_dciSink_ringBuf_update_config(ngscope_dci_sink_CA_t* q, cell_config_t* cell_config);
 int  ngscope_dciSink_ringBuf_insert_dci(ngscope_dci_sink_CA_t* q, ue_dci_t* ue_dci);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

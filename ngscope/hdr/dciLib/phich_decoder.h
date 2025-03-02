@@ -16,6 +16,10 @@
 
 #include "srsran/srsran.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #define HARQ_DELAY_MS   4
 #define MSG3_DELAY_MS   2 // Delay added to HARQ_DELAY_MS
 
@@ -54,5 +58,10 @@ bool decode_phich(srsran_ue_dl_t* ue_dl,
                   srsran_cell_t* cell,
                   pend_ack_list* ack_list,
                   srsran_phich_res_t* phich_res);
+
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

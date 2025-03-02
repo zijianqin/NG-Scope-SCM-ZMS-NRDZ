@@ -14,11 +14,13 @@
 #include <unistd.h>
 #include <stdint.h>
 
+#include "ngscope_def.h"
+
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-#include "ngscope_def.h"
 
 #define MAX_NOF_SKIP_TTI 200
 typedef struct{
