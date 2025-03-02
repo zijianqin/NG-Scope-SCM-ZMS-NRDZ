@@ -45,7 +45,7 @@ struct rf_args_band_t {
 struct rf_args_t {
   std::string type;
   std::string log_level;
-  double      srate_hz;
+  double      srate_hz; // the rx srate to usrp
   float       dl_freq;
   float       ul_freq;
   float       freq_offset;
