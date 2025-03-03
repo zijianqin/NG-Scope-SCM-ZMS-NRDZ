@@ -878,22 +878,22 @@ static int uhd_init(rf_uhd_handler_t* handler, char* args, uint32_t nof_channels
   //   }
   // }
 
-  // // Populate RF device info  // ignore error message in order to do resampling
-  // uhd::gain_range_t tx_gain_range;
-  // uhd::gain_range_t rx_gain_range;
-  // if (handler->uhd->get_gain_range(tx_gain_range, rx_gain_range) != UHD_ERROR_NONE) {
-  //   return SRSRAN_ERROR;
-  // }
-  // handler->info.min_tx_gain = tx_gain_range.start();
-  // handler->info.max_tx_gain = tx_gain_range.stop();
-  // handler->info.min_rx_gain = rx_gain_range.start();
-  // handler->info.max_rx_gain = rx_gain_range.stop();
-
-  // // Set starting gain to half maximum in case of using AGC
-  // rf_uhd_set_rx_gain(handler, handler->info.max_rx_gain * 0.7);
-  if (true) {  // added by paws
-    rf_uhd_set_rx_gain(handler, 30);
+  // Populate RF device info  // ignore error message in order to do resampling
+  uhd::gain_range_t tx_gain_range;
+  uhd::gain_range_t rx_gain_range;
+  if (handler->uhd->get_gain_range(tx_gain_range, rx_gain_range) != UHD_ERROR_NONE) {
+    return SRSRAN_ERROR;
   }
+  handler->info.min_tx_gain = tx_gain_range.start();
+  handler->info.max_tx_gain = tx_gain_range.stop();
+  handler->info.min_rx_gain = rx_gain_range.start();
+  handler->info.max_rx_gain = rx_gain_range.stop();
+
+  // Set starting gain to half maximum in case of using AGC
+  rf_uhd_set_rx_gain(handler, handler->info.max_rx_gain * 0.7);
+  // if (true) {  // added by paws
+  //   rf_uhd_set_rx_gain(handler, 30);
+  // }
 
 #if HAVE_ASYNC_THREAD
   if (start_async_thread) {

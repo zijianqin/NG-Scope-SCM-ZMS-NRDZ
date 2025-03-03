@@ -451,11 +451,11 @@ int srsran_ssb_set_cfg(srsran_ssb_t* q, const srsran_ssb_cfg_t* cfg)
   }
 
   // Calculate SSB offset error and check  // ignore error messages in order to do resampling
-  // double ssb_offset_error_Hz = ((double)q->f_offset * q->scs_hz) - freq_offset_hz;
-  // if (fabs(ssb_offset_error_Hz) > SSB_FREQ_OFFSET_MAX_ERROR_HZ) {
-  //   ERROR("SSB Offset (%.1f kHz) error exceeds maximum allowed", freq_offset_hz / 1e3);
-  //   return SRSRAN_ERROR;
-  // }
+  double ssb_offset_error_Hz = ((double)q->f_offset * q->scs_hz) - freq_offset_hz;
+  if (fabs(ssb_offset_error_Hz) > SSB_FREQ_OFFSET_MAX_ERROR_HZ) {
+    ERROR("SSB Offset (%.1f kHz) error exceeds maximum allowed", freq_offset_hz / 1e3);
+    return SRSRAN_ERROR;
+  }
 
   // Verify symbol size
   if (q->max_symbol_sz < symbol_sz) {

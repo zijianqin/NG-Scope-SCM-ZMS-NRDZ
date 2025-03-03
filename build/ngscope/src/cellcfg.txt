@@ -1,2 +1,0 @@
-cell.frame_type: FDD
-cell.bandwidth: 20MHz
