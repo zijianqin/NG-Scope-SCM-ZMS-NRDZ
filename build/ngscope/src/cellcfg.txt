@@ -1,7 +1,2 @@
 cell.frame_type: FDD
 cell.bandwidth: 20MHz
-cell.mcc: 6513
-cell.mnc: 000
-cell.tac: 0
-cell.id: 0
-cell.pdsch_reference_signal_power: -36dBm
